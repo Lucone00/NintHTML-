@@ -166,11 +166,15 @@ h5{
     text-align: justify;
 }
 
+.format-button:hover > .text-block{
+    font-size: 15px;
+}
 
 button:hover{
     background-color: rgb(193, 11, 11);
     transition: all 0.2s ease-in-out;
     transform: scale(1.1,1.1);
+    font-size: 12px;
 }
 
 .big-card:hover > .big-card-image{
