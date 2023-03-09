@@ -51,6 +51,25 @@ h2{
     margin: 10px;
 }
 
+.logo-button{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-block{
+    height: 80%;
+    width: 15%;
+}
+
+.text-block{
+    height: 44%;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 17px;
+}
+
 .gaming-systems-image{
     width: 1190px;
 
@@ -147,45 +166,43 @@ h5{
     text-align: justify;
 }
 
-.logo-button{
-    width: 100%;
-    height: 100%;
-}
-
-.logo-block{
-    height: 80%;
-    width: 15%;
-}
-
-.text-block{
-    height: 44%;
-    width: 75%;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    font-size: 17px;
-}
 
 button:hover{
     background-color: rgb(193, 11, 11);
     transition: all 0.2s ease-in-out;
-    transform: scale(1.5,1.5);
+    transform: scale(1.1,1.1);
 }
 
-.big-card-image:hover,
-.small-card-image:hover{
+.big-card:hover > .big-card-image{
     filter: brightness(0.5);
     transition: all 0.2s ease-in-out;
 }
 
-.bolder:hover,
-.small-bolder:hover{
+.big-card:hover > .bolder{
     color: red;
     transition: all 0.2s ease-in-out;
 }
 
-.adjust-read-more:hover,
-.adjust-small-read-more:hover{
+.big-card:hover > .adjust-read-more{
     color: darkred;
     transition: all 0.2s ease-in-out;
 }
+
+.small-card:hover > .small-card-image{
+    filter: brightness(0.5);
+    transition: all 0.2s ease-in-out;
+}
+
+.small-card:hover > .small-bolder {
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.small-card:hover > .adjust-small-read-more{
+    color: darkred;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
