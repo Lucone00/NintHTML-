@@ -195,6 +195,8 @@ h5{
 .format-last-button:hover{
     background-color: rgb(193, 11, 11);
     font-size: 12px;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1,1.1);
 }
 
 .big-card:hover > .big-card-image{
