@@ -41,17 +41,54 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   transform: scale(1.1);
 }
 .character-image:hover::before {
   transform: scale(1);
 }
 .character-image img {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   width: 100%;
-
 }
+
 .character-image:hover img {
   transform: scale(1.15);
+}
+
+.mario-char::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(Assets/mario-bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+.splatoon-char::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(Assets/Splatoon-bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+.kirby-char::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(Assets/Kirby-bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
