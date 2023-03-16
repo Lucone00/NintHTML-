@@ -1,0 +1,164 @@
+@import url(./root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    color: var(--font-color)
+}
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    position: sticky;
+    width: 100%;
+}
+
+nav .top-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .top-side .box-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .top-side .box-logo .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    width: 70px;
+    height: 20px;
+    border-radius: 70px;
+}
+
+nav .top-side .box-logo .logo .nintendo {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+nav .top-side .search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+
+
+}
+
+nav .top-side .search-bar .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+nav .top-side .search-bar .search .lens-box {
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+
+}
+
+nav .top-side .search-bar .search input {
+    border: none;
+    width: 300px;
+
+}
+
+nav .top-side .search-bar .select .all-categories {
+    border: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+nav .top-side .box-logo {
+    background-color: var(--secondary-color);
+    width: 105px;
+    height: 55px;
+}
+
+nav .top-side .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: auto;
+}
+
+button {
+    border: none;
+    background-color: var(--primary-color);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav .top-side .buttons {
+    align-items: center;
+}
+
+nav .top-side .buttons .support {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .top-side .buttons .support .comment-box {
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+}
+nav .top-side .buttons .wish-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .top-side .buttons .wish-list .heart-box {
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+}
+
+nav .top-side .buttons .cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .top-side .buttons .cart .cart-box {
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+}
+
+nav .top-side .buttons .log-in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .top-side .buttons .log-in .avatar-box {
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+}
