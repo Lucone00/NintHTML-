@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .social-cont {
+    background-color: rgb(230, 0, 18);
+    padding: 2.25rem 1rem;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center end;
+    -webkit-box-align: center;
+  }
+  li {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 2px;
+    float: left; /* elementi su singola riga */
+  }
