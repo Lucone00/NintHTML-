@@ -1,35 +1,37 @@
 @import url(root.css);
+
 .characters-section {
   font-family: sans-serif;
   padding: 2rem;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .characters-section h2 {
-  font-size: 36px;
+  font-size: 30px;
   color: var(--font-color);
+  font-weight: 550;
 }
 .character h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--font-color);
-  text-transform: uppercase;
+  font-weight: 650;
 }
 
 .characters-grid {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .character {
   text-align: left;
-  padding: 1.2rem;
+  padding: 0.5rem;
 }
 
-.character-image {
+.character-image { /* grandezza dei blocchi */
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   overflow: hidden;
   border-radius: 5px;
 }
