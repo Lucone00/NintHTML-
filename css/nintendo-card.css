@@ -21,7 +21,7 @@ body {
     padding-bottom: 3rem;
 }
 
-.feat {
+.feat-title {
     height: 2.36rem;
     width: 90%;
     margin-left: 2.5rem;
@@ -34,9 +34,8 @@ body {
     overflow: auto;
 }
 
-.cardFeatured {
+.card-featured {
     width: 16.375rem;
-
     display: block;
     margin: 16px;
     border: 1px solid rgb(218, 218, 218);
@@ -52,7 +51,7 @@ a {
 
 
 
-.title {
+.card-title {
     justify-content: space-between;
     width: 16.25rem;
     height: 7rem;
@@ -84,18 +83,18 @@ h3 {
     margin-right: 0.375rem;
 }
 
-.console {
+.console-type {
     font-weight: 300;
     font-size: 0.875rem;
 }
 
-.img {
+.card-img {
     width: 100%;
     transition: transform 200ms ease-in-out 25ms;
 
 }
 
-.contimg {
+.container-img {
     width: 100%;
     border-top: 1px;
     border-top-style: solid;
@@ -110,7 +109,7 @@ h3 {
 
 }
 
-.hover:hover, .contimg:hover  {
+.card-hover:hover, .container-img:hover  {
     top: -10px;
     color: rgb(230, 0, 18);
     transition: all 200ms ease-in-out 0s;
@@ -118,7 +117,7 @@ h3 {
 }
 
 
-.cardLabel {
+.card-description {
     height: 4rem;
     width: 14.25rem;
 
@@ -137,42 +136,3 @@ h3 {
     width: 188px;
     height: 1.5rem;
 }
-
-.ninstore {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    width: 100%;
-}
-
-.ninContent {
-    width: 71.5rem;
-    height: 23.661rem;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-}
-
-.ninGrid {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 2rem;
-    justify-items: start;
-    align-items: center;
-    width: 71.5rem;
-    height: 23.66rem;
-}
-
-.online {
-    grid-column: 1 / span 2;
-}
-
-.store {
-    height: 11.023rem;
-}
-
-p {
-    font-size: 1.3125rem;
-    font-weight: 300;
-    margin: 1.3125rem 0px;
-}
-
