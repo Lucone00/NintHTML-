@@ -4,7 +4,11 @@ body{
     font-family: 'museo sans rounded', sans-serif;
 }
 
-.tasks-giuseppe{
+a{
+    text-decoration: none;
+}
+
+.feature-body1{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -24,13 +28,13 @@ body{
     margin-bottom: 30px;
 }
 
-h3{
+.descriptions{
     margin:0;
     margin-left: 8px;
     margin-right: 8px;
 }
 
-h2{
+.titles{
     margin-right: 1070px;
     margin-left: 155px;
     text-align: left;
@@ -103,7 +107,7 @@ h2{
 }
 
 .big-card{
-display: block;
+    display: block;
 }
 
 .big-cards-grid{
@@ -134,18 +138,15 @@ display: block;
     border-radius: 5px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .justify {
     text-align: justify;
     font-weight: 100;
+    color: black;
 }
 
 .bolder{
     text-align: justify;
+    color: black;
 }
 
 h5{
@@ -160,10 +161,12 @@ h5{
 
 .adjust-date{
     font-weight: lighter;
+    color:black;
 }
 
 .adjust-small-date{
     font-weight: lighter;
+    color: black;
 }
 
 .adjust-small-read-more{
@@ -179,6 +182,7 @@ h5{
 
 .small-bolder{
     text-align: justify;
+    color: black;
 }
 
 .format-button:hover > .text-block{
