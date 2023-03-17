@@ -55,7 +55,7 @@
   background-size: cover;
   z-index: -1;
   transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .zelda-char::before {
   content: "";
@@ -67,7 +67,7 @@
   background-size: cover;
   z-index: -1;
   transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .splatoon-char::before {
   content: "";
@@ -79,7 +79,7 @@
   background-size: cover;
   z-index: -1;
   transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .kirby-char::before {
   content: "";
@@ -91,7 +91,7 @@
   background-size: cover;
   z-index: -1;
   transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .zelda-char:hover::before,
