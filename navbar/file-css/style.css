@@ -180,17 +180,18 @@ nav .top-side .buttons .log-in .avatar-box {
 .bottom-side .all-boxes {
     display: flex;
     width: 100%;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 .bottom-side .all-boxes .box-bottom{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .bottom-side .all-boxes .box-bottom .box-logo {
     border: 1px solid black;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
 }
