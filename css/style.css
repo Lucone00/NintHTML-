@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/museo-sans-rounded%27");
+@import "/css/root.css";
 
 body{
     font-family: 'museo sans rounded', sans-serif;
@@ -32,23 +32,25 @@ a{
     margin:0;
     margin-left: 8px;
     margin-right: 8px;
+    color: var(--font-color);
 }
 
 .titles{
     margin-right: 1070px;
     margin-left: 155px;
     text-align: left;
+    color: var(--font-color);
 }
 
 .format-button{
     width: 130px;
     height: 40px;
     text-align: center;
-    color: white;
-    background-color: red;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-weight: 700;
     border-radius: 5px;
-    border-color: red;
+    border-color: var(--secondary-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,11 +61,11 @@ a{
     width: 265px;
     height: 40px;
     text-align: center;
-    color: white;
-    background-color: red;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-weight: 700;
     border-radius: 5px;
-    border-color: red;
+    border-color: var(--secondary-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,12 +143,12 @@ a{
 .justify {
     text-align: justify;
     font-weight: 100;
-    color: black;
+    color: var(--font-color);
 }
 
 .bolder{
     text-align: justify;
-    color: black;
+    color: var(--font-color);
 }
 
 h5{
@@ -156,22 +158,22 @@ h5{
 
 .adjust-read-more{
     text-decoration: underline;
-    color: red;
+    color: var(--secondary-color);
 }
 
 .adjust-date{
     font-weight: lighter;
-    color:black;
+    color: var(--font-color);
 }
 
 .adjust-small-date{
     font-weight: lighter;
-    color: black;
+    color: var(--font-color);
 }
 
 .adjust-small-read-more{
     text-decoration: underline;
-    color: red;
+    color: var(--secondary-color);
 }
 
 .see-all-news-button{
@@ -182,7 +184,7 @@ h5{
 
 .small-bolder{
     text-align: justify;
-    color: black;
+    color: var(--font-color);
 }
 
 .format-button:hover > .text-block{
@@ -190,14 +192,14 @@ h5{
 }
 
 .all-button:hover{
-    background-color: rgb(193, 11, 11);
+    background-color: var(--buttonhover-color);
     transition: all 0.2s ease-in-out;
     transform: scale(1.1,1.1);
     font-size: 12px;
 }
 
 .format-last-button:hover{
-    background-color: rgb(193, 11, 11);
+    background-color: var(--buttonhover-color);
     font-size: 12px;
     transition: all 0.2s ease-in-out;
     transform: scale(1.1,1.1);
@@ -209,12 +211,12 @@ h5{
 }
 
 .big-card:hover > .bolder{
-    color: red;
+    color: var(--secondary-color);
     transition: all 0.2s ease-in-out;
 }
 
 .big-card:hover > .adjust-read-more{
-    color: darkred;
+    color: var(--buttonhover-color);
     transition: all 0.2s ease-in-out;
 }
 
@@ -224,12 +226,12 @@ h5{
 }
 
 .small-card:hover > .small-bolder {
-    color: red;
+    color: var(--secondary-color);
     transition: all 0.2s ease-in-out;
 }
 
 .small-card:hover > .adjust-small-read-more{
-    color: darkred;
+    color: var(--buttonhover-color);
     transition: all 0.2s ease-in-out;
 }
 
