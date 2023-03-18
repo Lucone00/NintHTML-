@@ -1,21 +1,25 @@
 @import url(root.css);
 
 .characters-section {
-  font-family: sans-serif;
-  padding: 2rem;
-  width: 80%;
+  font-family: var(--font-family);
+  width: 100%;
+  height: auto;
   margin: 0 auto;
+  border-top: 0.7px solid grey;
+  border-bottom: 0.7px solid grey;
+  padding: 20px;
 }
 
 .characters-section h2 {
   font-size: 30px;
   color: var(--font-color);
-  font-weight: 550;
+  font-weight: 500;
+  margin-left: 130px;
 }
 .character h3 {
   font-size: 20px;
   color: var(--font-color);
-  font-weight: 650;
+  font-weight: normal;
 }
 
 .characters-grid {
