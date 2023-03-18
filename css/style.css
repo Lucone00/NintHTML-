@@ -1,184 +1,183 @@
-@import url('https://fonts.cdnfonts.com/css/museo-sans-rounded%27');
+@import url("https://fonts.cdnfonts.com/css/museo-sans-rounded%27");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .image-header {
-    width: 100%;
-    height: 520px;
+  width: 100%;
+  height: 520px;
 }
 
 .image-header .image-behind {
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0/ncom/en_US/merchandising/center-stage-banner/bayonetta-origins/3600x800_BayoOrigins_LandingHeaderBG_03);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0/ncom/en_US/merchandising/center-stage-banner/bayonetta-origins/3600x800_BayoOrigins_LandingHeaderBG_03);
 }
 
 .image-behind {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-behind img {
-    margin-top: 190px;
+  margin-top: 190px;
 }
 
-
 section {
-    height: 100px;
+  height: 100px;
 }
 
 footer {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .footer-nintendo-red {
-    height: 120px;
-    width: 100%;
-    background-color: rgb(230, 0, 18);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 120px;
+  width: 100%;
+  background-color: rgb(230, 0, 18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-nintendo-red img {
-    margin-left: 100px;
-    width: 195px;
-    height: 48px;
+  margin-left: 100px;
+  width: auto;
+  height: 80px;
 }
 
 .footer-nintendo-red .social-links {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    width: 300px;
-    margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 300px;
+  margin-right: 50px;
 }
 
 svg {
-    color: white;
+  color: white;
 }
 
 .footer-under {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .footer-under .footer-box {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-left: 1px solid grey;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 1px solid grey;
+  padding: 50px;
 }
 
 .footer-under .footer-box a {
-    text-decoration: underline solid transparent;
-    color: rgb(230, 0, 18);
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'museo sans rounded', sans-serif;
-    transition: text-decoration 0.2s ease;
+  text-decoration: underline solid transparent;
+  color: rgb(230, 0, 18);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "museo sans rounded", sans-serif;
+  transition: text-decoration 0.2s ease;
 }
 
 .footer-under .footer-box a:hover {
-    text-decoration: underline red 3px;
+  text-decoration: underline red 3px;
 }
 
 .footer-under .footer-box h3 {
-    font-size: 18px;
-    font-family: 'museo sans rounded', sans-serif;
+  font-size: 18px;
+  font-family: "museo sans rounded", sans-serif;
 }
 
 .footer-under .footer-double-box {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .footer-under .footer-double-box .double-box-doubled {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-left: 1px solid grey;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 1px solid grey;
+  padding: 50px;
 }
 
 .footer-under .footer-double-box .double-box-doubled a {
-    text-decoration: underline solid transparent;
-    color: rgb(230, 0, 18);
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'museo sans rounded', sans-serif;
-    transition: text-decoration 0.2s ease;
+  text-decoration: underline solid transparent;
+  color: rgb(230, 0, 18);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "museo sans rounded", sans-serif;
+  transition: text-decoration 0.2s ease;
 }
 
 .footer-under .footer-double-box .double-box-doubled a:hover {
-    text-decoration: underline red 3px;
+  text-decoration: underline red 3px;
 }
 
-.footer-under .footer-double-box .double-box-doubled h3{
-    font-size: 18px;
-    font-family: 'museo sans rounded', sans-serif;
+.footer-under .footer-double-box .double-box-doubled h3 {
+  font-size: 18px;
+  font-family: "museo sans rounded", sans-serif;
 }
 
 .safet-svg {
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 50px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
 }
 
 .safet-svg svg {
-    height: 86px;
-    width: 64px;
+  height: 86px;
+  width: 64px;
 }
 
 .black-bar {
-    height: 150px;
-    width: 100%;
-    background-color: rgb(12, 10, 10);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(12, 10, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .copyright p {
-    color: grey;
-    font-family: 'museo sans rounded', sans-serif;
+  color: grey;
+  font-family: "museo sans rounded", sans-serif;
 }
 
 .black-bar-links {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .black-bar-links a {
-    text-decoration: underline solid transparent;
-    color: white;
-    font-family: 'museo sans rounded', sans-serif;
-    transition: text-decoration 0.2s ease;
+  text-decoration: underline solid transparent;
+  color: white;
+  font-family: "museo sans rounded", sans-serif;
+  transition: text-decoration 0.2s ease;
 }
 
 .black-bar-links a:hover {
-    text-decoration: underline white 2px;
+  text-decoration: underline white 2px;
 }
