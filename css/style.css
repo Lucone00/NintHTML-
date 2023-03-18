@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-}
-
 .image-header {
   width: 100%;
   height: 520px;
@@ -31,10 +26,7 @@ body {
 
 .image-behind img {
   margin-top: 190px;
-}
-
-section {
-  height: 100px;
+  width: 96%;
 }
 
 footer {
@@ -49,10 +41,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 250px;
 }
 
 .footer-nintendo-red img {
-  margin-left: 100px;
+  margin-left: 20px;
   width: auto;
   height: 80px;
 }
@@ -65,7 +58,7 @@ footer {
   margin-right: 50px;
 }
 
-svg {
+footer svg {
   color: white;
 }
 
@@ -80,9 +73,9 @@ svg {
 .footer-under .footer-box {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  border-left: 1px solid grey;
-  padding: 50px;
+  gap: 10px;
+  border-left: 0.5px solid grey;
+  padding: 30px;
 }
 
 .footer-under .footer-box a {
@@ -90,7 +83,6 @@ svg {
   color: rgb(230, 0, 18);
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
   font-family: "museo sans rounded", sans-serif;
   transition: text-decoration 0.2s ease;
 }
@@ -107,7 +99,7 @@ svg {
 .footer-under .footer-double-box {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
 }
 
 .footer-under .footer-double-box .double-box-doubled {
@@ -126,6 +118,7 @@ svg {
   font-weight: bold;
   font-family: "museo sans rounded", sans-serif;
   transition: text-decoration 0.2s ease;
+  font-weight: 540;
 }
 
 .footer-under .footer-double-box .double-box-doubled a:hover {
@@ -162,13 +155,15 @@ svg {
 }
 
 .copyright p {
-  color: grey;
+  color: rgb(180, 170, 170);
   font-family: "museo sans rounded", sans-serif;
+  margin-left: 1rem;
+  font-size: 12px;
 }
 
 .black-bar-links {
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 
 .black-bar-links a {
@@ -176,6 +171,7 @@ svg {
   color: white;
   font-family: "museo sans rounded", sans-serif;
   transition: text-decoration 0.2s ease;
+  font-size: 14px;
 }
 
 .black-bar-links a:hover {
