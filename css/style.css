@@ -58,37 +58,35 @@ a{
 }
 
 .format-last-button{
-    width: 265px;
-    height: 40px;
-    text-align: center;
+    width: 263px;
+    height: 49px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     font-weight: 700;
     border-radius: 5px;
     border-color: var(--secondary-color);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 10px;
 }
 
 .logo-button{
-    width: 100%;
-    height: 100%;
+    width: 35px;
+    height: 25px;
+    margin-top: 7px;
 }
 
 .logo-block{
-    height: 80%;
-    width: 15%;
+    height: 85%;
+    width: 14%;
+    margin-right: 10px;
 }
 
 .text-block{
     height: 44%;
-    width: 75%;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
+    width: 67%;
     font-size: 17px;
+    margin-left: 0;
 }
 
 .gaming-systems-image{
@@ -142,7 +140,7 @@ a{
 
 .justify {
     text-align: justify;
-    font-weight: 100;
+    font-weight: lighter;
     color: var(--font-color);
 }
 
@@ -151,29 +149,35 @@ a{
     color: var(--font-color);
 }
 
-h5{
-    text-align: left;
-    font-size: larger;
-}
 
 .adjust-read-more{
     text-decoration: underline;
     color: var(--secondary-color);
+    text-align: left;
+    font-size: larger;
 }
 
 .adjust-date{
-    font-weight: lighter;
+    font-weight: 400;
     color: var(--font-color);
+    text-align: left;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .adjust-small-date{
-    font-weight: lighter;
+    font-weight: 400;
     color: var(--font-color);
+    text-align: left;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .adjust-small-read-more{
     text-decoration: underline;
     color: var(--secondary-color);
+    text-align: left;
+    font-size: larger;
 }
 
 .see-all-news-button{
