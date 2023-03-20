@@ -76,6 +76,7 @@ body{
     position: relative;
     margin-top: 10px;
     border-radius: 5px;
+    font-size: 15px;
     
 }
 
@@ -98,6 +99,7 @@ body{
     background-position: center center;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    transition: 200ms ease-in-out 25ms;
 }
 
 .slider-box .cardss .image1{
@@ -189,15 +191,27 @@ body{
     color: gray;
 }
 
-.slider-box .cardss .sale{
-    background-color: var(--secondary-color);
+.slider-box .cardss .bonus-info{
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 13px;
-    width: 160px;
+    font-size: 12px;
+    width: max-content;
+    padding: 2px 10px 2px 10px;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+.sale-new{
+    background-color: var(--secondary-color);
+}
+
+.dlc{
+    background-color: rgb(111, 0, 203);
+}
+
+.free-demo{
+    background-color: rgb(0, 97, 251);
 }
 
 .slider-box .cardss .selling-data{
@@ -232,7 +246,7 @@ body{
 .slider-box .cardss .selling-data .price .discount .discount-image{
     width: 7px;
     height: 18px;
-    background-image: url(/assets/discount.svg);
+    background-image: url(../assets/discount.svg);
     background-size: cover;
     background-position: center center;
 }
@@ -279,6 +293,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .slider-box .full-list-button{
@@ -300,8 +315,8 @@ body{
 
 .slider-box .cardss:hover .top-image{
    margin-top: -10px;
-   transition: 0.3s;
    border-top: 1px solid lightgray ;
+
 }
 
 .slider-box .cardss .add-favorite a:hover{
