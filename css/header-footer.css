@@ -55,13 +55,19 @@ body{
 }
 
 .bottone{
-  background-color: rgb(230, 0, 18);
-  color: white;
+  width: 130px;
+  height: 40px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: 700;
   border-radius: 5px;
-  font-size: 20px;
-  width: 180px; 
-  height: 50px;
-  cursor: pointer;
+  border-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  margin-top: 0px;
+  font-size: 15px;
 }
 
 .esrb a{
@@ -236,4 +242,11 @@ svg {
 
 .black-bar-links a:hover {
   text-decoration: underline white 2px;
+}
+
+.bottone:hover{
+  background-color: var(--buttonhover-color);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1,1.1);
+  font-size: 12px;
 }
