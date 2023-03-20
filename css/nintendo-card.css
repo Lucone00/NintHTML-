@@ -1,138 +1,122 @@
-@import url('https://fonts.cdnfonts.com/css/museo-sans-rounded%27');
-
+@import url("https://fonts.cdnfonts.com/css/museo-sans-rounded%27");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    font-family: 'museo sans rounded', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    color: rgb(72, 72, 72);
-    }
-
 .featured {
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100vw;
+  font-family: "museo sans rounded", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: rgb(72, 72, 72);
+  margin-bottom: 25%;
 }
 
 .feat-title {
-    height: 2.36rem;
-    width: 90%;
-    margin-left: 2.5rem;
-    font-size: 1.75rem;
-    font-weight: 700;
+  height: 2.36rem;
+  width: 90%;
+  margin-left: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
 }
 
 .card {
-    display: flex;
-    overflow: auto;
+  display: flex;
+  overflow: auto;
 }
 
 .card-featured {
-    width: 16.375rem;
-    display: block;
-    margin: 16px;
-    border: 1px solid rgb(218, 218, 218);
-    border-radius: 0.25rem;
-
+  width: 16.375rem;
+  display: block;
+  margin: 16px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 0.25rem;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(72, 72, 72);     
+.featured a {
+  text-decoration: none;
+  color: rgb(72, 72, 72);
 }
-
-
-
 
 .card-title {
-    justify-content: space-between;
-    width: 16.25rem;
-    height: 7rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-
-
+  justify-content: space-between;
+  width: 16.25rem;
+  height: 7rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .textcontent {
-    height: 4rem;
-    width: 14.25rem;
-    margin-bottom: 1rem;
+  height: 4rem;
+  width: 14.25rem;
+  margin-bottom: 1rem;
 }
 
-h3 {
-    font-weight: 700;
-    font-size: 1rem;
-    padding-top: 1rem;
+.featured h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 1rem;
 }
-
-
 
 .line {
-    height: 1rem;
-    width: 2px;
-    border-left: 2px solid rgb(230, 0, 18);
-    margin-right: 0.375rem;
+  height: 1rem;
+  width: 2px;
+  border-left: 2px solid rgb(230, 0, 18);
+  margin-right: 0.375rem;
 }
 
 .console-type {
-    font-weight: 300;
-    font-size: 0.875rem;
+  font-weight: 300;
+  font-size: 0.875rem;
 }
 
 .card-img {
-    width: 100%;
-    transition: transform 200ms ease-in-out 25ms;
-
+  width: 100%;
+  transition: transform 200ms ease-in-out 25ms;
 }
 
 .container-img {
-    width: 100%;
-    border-top: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(218, 218, 218);
-    border-top-right-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
-    overflow: hidden;
+  width: 100%;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(218, 218, 218);
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  overflow: hidden;
 
-    position: relative;
-    transition: top 200ms ease-in-out 25ms;
-    top: 0;
-
+  position: relative;
+  transition: top 200ms ease-in-out 25ms;
+  top: 0;
 }
 
-.card-hover:hover, .container-img:hover  {
-    top: -10px;
-    color: rgb(230, 0, 18);
-    transition: all 200ms ease-in-out 0s;
-
+.card-hover:hover,
+.container-img:hover {
+  top: -10px;
+  color: rgb(230, 0, 18);
+  transition: all 200ms ease-in-out 0s;
 }
-
 
 .card-description {
-    height: 4rem;
-    width: 14.25rem;
-
+  height: 4rem;
+  width: 14.25rem;
 }
 
 .subtitle {
-     display: flex;
-     width: 11.75rem;
-     height: 1.5rem;
-     margin-bottom: 1rem;
-     margin-left: 1rem;
+  display: flex;
+  width: 11.75rem;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .subtitle span {
-       
-    width: 188px;
-    height: 1.5rem;
+  width: 188px;
+  height: 1.5rem;
 }
