@@ -1,5 +1,11 @@
 @import "/css/root.css";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'museo sans rounded', sans-serif;
 }
@@ -29,23 +35,22 @@ a{
 }
 
 .descriptions{
-    margin:0;
-    margin-left: 8px;
-    margin-right: 8px;
     color: var(--font-color);
+    margin-left: 15px;
 }
 
 .titles{
-    margin-right: 1070px;
-    margin-left: 155px;
     text-align: left;
     color: var(--font-color);
+    width: 1189px;
+    margin-left: 165px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .format-button{
     width: 130px;
     height: 40px;
-    text-align: center;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     font-weight: 700;
@@ -55,6 +60,7 @@ a{
     justify-content: space-around;
     align-items: center;
     margin: 10px;
+    margin-top: 0px;
 }
 
 .format-last-button{
@@ -113,8 +119,8 @@ a{
 .big-cards-grid{
     display: inline-flex;
     gap: 28px;
-    margin-left: 155px;
-    margin-right: 155px;
+    margin-left: 165px;
+    margin-right: 165px;
     padding-left: 0px;
     padding-right: 0px;  
 }
@@ -122,8 +128,8 @@ a{
 .small-cards-grid{
     display: inline-flex;
     gap: 28px;
-    margin-left: 155px;
-    margin-right: 155px;
+    margin-left: 165px;
+    margin-right: 165px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -147,6 +153,7 @@ a{
 .bolder{
     text-align: justify;
     color: var(--font-color);
+    padding-bottom: 10px;
 }
 
 
@@ -155,6 +162,8 @@ a{
     color: var(--secondary-color);
     text-align: left;
     font-size: larger;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .adjust-date{
@@ -163,6 +172,8 @@ a{
     text-align: left;
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .adjust-small-date{
@@ -171,6 +182,8 @@ a{
     text-align: left;
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .adjust-small-read-more{
@@ -178,12 +191,13 @@ a{
     color: var(--secondary-color);
     text-align: left;
     font-size: larger;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .see-all-news-button{
     text-align: left;
-    margin-left: 157px;
-    margin-right: 157px;
+    margin-left: 165px;
 }
 
 .small-bolder{
