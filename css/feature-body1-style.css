@@ -13,6 +13,7 @@
 .feature-body1{
     text-align: center;
     font-family: var(--font-family);
+    margin-bottom: 3%;
 }
 
 .online-store-image{
@@ -27,17 +28,23 @@
 .under-image-online-store{
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    margin-left: 9.5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
 
-.descriptions{
+.descriptions-online-store{
     color: var(--font-color);
-    margin-left: 0%;
-    padding-left: 0;
+    margin-left: 18%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
+
+.descriptions-gaming-system{
+    color: var(--font-color);
+    margin-left: 14%;
+    margin-top: 3%;
+
+}
+
+
 
 .titles{
     text-align: left;
@@ -48,8 +55,23 @@
     margin-top: 3%;
 }
 
-.format-button{
-    width: 20%;
+.format-button-start-shopping{
+    width: 25%;
+    height: 15%;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: 700;
+    border-radius: 5px;
+    border-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.format-button-explore-now{
+    width: 12%;
     height: 40px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
@@ -60,13 +82,15 @@
     justify-content: space-around;
     align-items: center;
     margin: 10px;
-    margin-top: 0px;
+    margin-top: 3%;
     font-size: 15px;
 }
 
+
+
 .format-last-button{
-    width: 267px;
-    height: 49px;
+    width: 20%;
+    height: 15%;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     font-weight: 700;
@@ -80,13 +104,13 @@
 .logo-button{
     width: 35px;
     height: 25px;
-    margin-top: 3px;
+    margin-top: 3%;
 }
 
 .logo-block{
     height: 85%;
     width: 14%;
-    margin-right: 10px;
+    margin-right: 3%;
 }
 
 .text-block{
@@ -100,13 +124,6 @@
 .under-image-gaming-systems{
     width: 78%;
     display: flex;
-    margin-left: 9.7%;
-    margin-top: 3%;
-    margin-bottom: 2%;
-}
-
-.adjust-margin{
-    margin-right: 30px;
 }
 
 .big-card{
@@ -149,7 +166,7 @@
 .bolder{
     text-align: justify;
     color: var(--font-color);
-    padding-bottom: 10px;
+    padding-bottom: 1%;
 }
 
 
@@ -158,8 +175,8 @@
     color: var(--secondary-color);
     text-align: left;
     font-size: larger;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 2%;
+    margin-top: 3%;
 }
 
 .adjust-date{
@@ -168,8 +185,8 @@
     text-align: left;
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .adjust-small-date{
@@ -178,8 +195,8 @@
     text-align: left;
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .adjust-small-read-more{
@@ -187,13 +204,12 @@
     color: var(--secondary-color);
     text-align: left;
     font-size: larger;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 6%;
+    margin-top: 2%;
 }
 
 .see-all-news-button{
-    text-align: left;
-    margin-left: 165px;
+    margin-left: 11%;
 }
 
 .small-bolder{
