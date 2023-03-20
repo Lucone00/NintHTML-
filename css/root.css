@@ -1,0 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/museo-sans-rounded%27");
+
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(230, 0, 19);
+  --buttonhover-color: #ac010d;
+  --font-color: rgb(72, 72, 72);
+  --font-family: "museo sans rounded", sans-serif;
+}
