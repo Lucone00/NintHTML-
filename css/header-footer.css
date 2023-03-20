@@ -49,7 +49,7 @@ body{
 
 .titolo-gioco {
   display: flex;
-  color: rgb(72, 72, 72);
+  color: var(--font-color);
   text-align: start;
   margin-left: 30px;
 }
@@ -72,11 +72,11 @@ body{
 
 .esrb a{
   text-decoration: none;
-  color: rgb(72, 72, 72);
+  color: var(--font-color);
 }
 
 a:hover .bottone{
-  background-color:  rgb(139, 7, 7);
+  background-color:  var(--buttonhover-color);
 }
 
 .h3{
@@ -106,7 +106,7 @@ a:hover .bottone{
 .footer-nintendo-red {
   height: 120px;
   width: 100%;
-  background-color: rgb(230, 0, 18);
+  background-color: var(--secondary-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,7 +128,7 @@ a:hover .bottone{
 }
 
 svg {
-  color: white;
+  color: var(--primary-color);
 }
 
 .footer-under {
@@ -143,13 +143,13 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border-left: 1px solid grey;
+  border-left: 1px solid var(--font-color);
   padding: 50px;
 }
 
 .footer-under .footer-box a {
   text-decoration: underline solid transparent;
-  color: rgb(230, 0, 18);
+  color: var(--secondary-color);
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
@@ -158,7 +158,7 @@ svg {
 }
 
 .footer-under .footer-box a:hover {
-  text-decoration: underline red 3px;
+  text-decoration: underline var(--secondary-color) 3px;
 }
 
 .footer-under .footer-box h3 {
@@ -176,13 +176,13 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-left: 1px solid grey;
+  border-left: 1px solid var(--secondary-color);
   padding: 50px;
 }
 
 .footer-under .footer-double-box .double-box-doubled a {
   text-decoration: underline solid transparent;
-  color: rgb(230, 0, 18);
+  color: var(--secondary-color);
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
@@ -191,7 +191,7 @@ svg {
 }
 
 .footer-under .footer-double-box .double-box-doubled a:hover {
-  text-decoration: underline red 3px;
+  text-decoration: underline var(--secondary-color) 3px;
 }
 
 .footer-under .footer-double-box .double-box-doubled h3 {
@@ -224,7 +224,7 @@ svg {
 }
 
 .copyright p {
-  color: grey;
+  color: var(--font-color);
   font-family: "museo sans rounded", sans-serif;
 }
 
@@ -235,13 +235,13 @@ svg {
 
 .black-bar-links a {
   text-decoration: underline solid transparent;
-  color: white;
+  color: var(--primary-color);
   font-family: "museo sans rounded", sans-serif;
   transition: text-decoration 0.2s ease;
 }
 
 .black-bar-links a:hover {
-  text-decoration: underline white 2px;
+  text-decoration: underline var(--primary-color) 2px;
 }
 
 .bottone:hover{
