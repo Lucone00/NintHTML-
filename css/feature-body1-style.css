@@ -6,11 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'museo sans rounded', sans-serif;
-}
-
-a{
+.feature-body1 a{
     text-decoration: none;
 }
 
