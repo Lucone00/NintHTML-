@@ -13,7 +13,7 @@
 .feature-body1{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 1500px;
     font-family: var(--font-family);
 }
 
@@ -94,7 +94,6 @@
 
 .gaming-systems-image{
     width: 1190px;
-
 }
 
 .under-image-gaming-systems{
