@@ -164,6 +164,7 @@ hr {
 .big-card-image {
   width: 100%;
   border-radius: 5px;
+  height: 350px;
 }
 
 .justify {
@@ -175,7 +176,7 @@ hr {
 .bolder {
   text-align: justify;
   color: var(--font-color);
-  padding-bottom: 1%;
+  height: 40px;
 }
 
 .adjust-read-more {
@@ -223,6 +224,7 @@ hr {
 .small-bolder {
   text-align: justify;
   color: var(--font-color);
+  height: 55px;
 }
 
 .format-button:hover > .text-block {
