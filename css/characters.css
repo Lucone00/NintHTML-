@@ -9,7 +9,8 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
-  border-top: 0.7px solid grey;
+  border-top: 0.5px solid rgb(158, 153, 153);
+  border-bottom: 0.5px solid rgb(158, 153, 153);
   padding: 20px;
 }
 
@@ -30,6 +31,7 @@
 .characters-grid {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .character {
