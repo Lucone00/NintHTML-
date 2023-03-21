@@ -1,13 +1,13 @@
 @import "./css/root.css";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.feature-body1 a{
-    text-decoration: none;
+.feature-body1 a {
+  text-decoration: none;
 }
 
 .feature-body1{
@@ -44,11 +44,10 @@
     margin-bottom: 3%;
 }
 
-.descriptions-gaming-system{
-    color: var(--font-color);
-    margin-left: 14%;
-    margin-top: 3%;
-
+.descriptions-gaming-system {
+  color: var(--font-color);
+  margin-left: 14%;
+  margin-top: 3%;
 }
 
 .titles{
@@ -59,36 +58,43 @@
     margin-bottom: 2%;
     margin-top: 3%;
 }
-
-.format-button-start-shopping{
-    width: 13%;
-    height: 15%;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    font-weight: 700;
-    border-radius: 5px;
-    border-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3%;
-    font-size: 15px;
+hr {
+  border: none;
+  height: 0.1px;
+  background-color: rgb(158, 153, 153);
+  margin: 20px 0;
+  display: block; /* Ensure that the hr element is a block-level element */
+  clear: both;
+}
+.format-button-start-shopping {
+  width: 25%;
+  height: 15%;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: 700;
+  border-radius: 5px;
+  border-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  font-size: 15px;
 }
 
-.format-button-explore-now{
-    width: 12%;
-    height: 40px;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    font-weight: 700;
-    border-radius: 5px;
-    border-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px;
-    margin-top: 3%;
-    font-size: 15px;
+.format-button-explore-now {
+  width: 12%;
+  height: 40px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: 700;
+  border-radius: 5px;
+  border-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  margin-top: 3%;
+  font-size: 15px;
 }
 
 .format-last-button{
@@ -104,172 +110,165 @@
     align-items: center;
 }
 
-.logo-button{
-    width: 35px;
-    height: 25px;
-    margin-top: 3%;
+.logo-button {
+  width: 35px;
+  height: 25px;
+  margin-top: 3%;
 }
 
-.logo-block{
-    height: 85%;
-    width: 14%;
-    margin-right: 3%;
+.logo-block {
+  height: 85%;
+  width: 14%;
+  margin-right: 3%;
 }
 
-.text-block{
-    height: 44%;
-    width: 67%;
-    font-size: 17px;
-    margin-left: 0;
-    color:var(--primary-color);
+.text-block {
+  height: 44%;
+  width: 67%;
+  font-size: 17px;
+  margin-left: 0;
+  color: var(--primary-color);
 }
 
-.under-image-gaming-systems{
-    width: 78%;
-    display: flex;
+.under-image-gaming-systems {
+  width: 78%;
+  display: flex;
 }
 
-.big-card{
-    display: block;
+.big-card {
+  display: block;
 }
 
-.big-cards-grid{
-    display: inline-flex;
-    gap: 28px;
-    margin-left: 11%;
-    margin-right: 11%;
-    padding-left: 0px;
-    padding-right: 0px; 
+.big-cards-grid {
+  display: inline-flex;
+  gap: 28px;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.small-cards-grid{
-    display: inline-flex;
-    gap: 28px;
-    margin-left: 11%;
-    margin-right: 11%;
-    padding-right: 0px;
+.small-cards-grid {
+  display: inline-flex;
+  gap: 28px;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-right: 0px;
 }
 
-.small-card-image{
-    border-radius: 5px;
-    width: 100%;
+.small-card-image {
+  border-radius: 5px;
+  width: 100%;
 }
 
-.big-card-image{
-    width:100%;
-    border-radius: 5px;
-    height: 300px;
+.big-card-image {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .justify {
-    text-align: justify;
-    font-weight: lighter;
-    color: var(--font-color);
+  text-align: justify;
+  font-weight: lighter;
+  color: var(--font-color);
 }
 
-.bolder{
-    text-align: justify;
-    color: var(--font-color);
-    height: 40px;
+.bolder {
+  text-align: justify;
+  color: var(--font-color);
+  padding-bottom: 1%;
 }
 
-
-.adjust-read-more{
-    text-decoration: underline;
-    color: var(--secondary-color);
-    text-align: left;
-    font-size: larger;
-    margin-bottom: 5%;
-    margin-top: 2%;
+.adjust-read-more {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: larger;
+  margin-bottom: 4%;
+  margin-top: 2%;
 }
 
-.adjust-small-read-more{
-    text-decoration: underline;
-    color: var(--secondary-color);
-    text-align: left;
-    font-size: larger;
-    margin-bottom: 6%;
-    margin-top: 2%;
+.adjust-date {
+  font-weight: 400;
+  color: var(--font-color);
+  text-align: left;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.adjust-date{
-    font-weight: 400;
-    color: var(--font-color);
-    text-align: left;
-    font-size: 17px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.adjust-small-date {
+  font-weight: 400;
+  color: var(--font-color);
+  text-align: left;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.adjust-small-date{
-    font-weight: 400;
-    color: var(--font-color);
-    text-align: left;
-    font-size: 17px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.adjust-small-read-more {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: larger;
+  margin-bottom: 6%;
+  margin-top: 2%;
 }
 
-.see-all-news-button{
-    margin-left: 11%;
+.see-all-news-button {
+  margin-left: 11%;
 }
 
-.small-bolder{
-    text-align: justify;
-    color: var(--font-color);
-    height: 50px;
+.small-bolder {
+  text-align: justify;
+  color: var(--font-color);
 }
 
-.format-button:hover > .text-block{
-    font-size: 15px;
+.format-button:hover > .text-block {
+  font-size: 15px;
 }
 
-.all-button:hover{
-    background-color: var(--buttonhover-color);
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.1,1.1);
-    font-size: 12px;
+.all-button:hover {
+  background-color: var(--buttonhover-color);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1, 1.1);
+  font-size: 12px;
 }
 
-.format-last-button:hover{
-    background-color: var(--buttonhover-color);
-    font-size: 12px;
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.1,1.1);
+.format-last-button:hover {
+  background-color: var(--buttonhover-color);
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1, 1.1);
 }
 
-.big-card:hover > .big-card-image{
-    filter: brightness(0.5);
-    transition: all 0.2s ease-in-out;
+.big-card:hover > .big-card-image {
+  filter: brightness(0.5);
+  transition: all 0.2s ease-in-out;
 }
 
-.big-card:hover > .bolder{
-    color: var(--secondary-color);
-    transition: all 0.2s ease-in-out;
+.big-card:hover > .bolder {
+  color: var(--secondary-color);
+  transition: all 0.2s ease-in-out;
 }
 
-.big-card:hover > .adjust-read-more{
-    color: var(--buttonhover-color);
-    transition: all 0.2s ease-in-out;
+.big-card:hover > .adjust-read-more {
+  color: var(--buttonhover-color);
+  transition: all 0.2s ease-in-out;
 }
 
-.small-card:hover > .small-card-image{
-    filter: brightness(0.5);
-    transition: all 0.2s ease-in-out;
+.small-card:hover > .small-card-image {
+  filter: brightness(0.5);
+  transition: all 0.2s ease-in-out;
 }
 
 .small-card:hover > .small-bolder {
-    color: var(--secondary-color);
-    transition: all 0.2s ease-in-out;
+  color: var(--secondary-color);
+  transition: all 0.2s ease-in-out;
 }
 
-.small-card:hover > .adjust-small-read-more{
-    color: var(--buttonhover-color);
-    transition: all 0.2s ease-in-out;
+.small-card:hover > .adjust-small-read-more {
+  color: var(--buttonhover-color);
+  transition: all 0.2s ease-in-out;
 }
-
-
-
-
