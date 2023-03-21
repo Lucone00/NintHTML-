@@ -70,6 +70,22 @@ body{
     position: relative;
 }
 
+.slider-box::-webkit-scrollbar{
+    background: transparent;
+    
+}
+
+.slider-box::-webkit-scrollbar-thumb {
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    transition: ease 0.5s;
+}
+
+.slider-box::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary-color);
+}
+
 .slider-box .cardss{
     border: 1px solid lightgray;
     height: 330px;
@@ -77,7 +93,7 @@ body{
     margin-top: 10px;
     border-radius: 5px;
     font-size: 15px;
-    
+    margin-bottom: 10px;
 }
 
 .slider-box .cardss .link-card{
