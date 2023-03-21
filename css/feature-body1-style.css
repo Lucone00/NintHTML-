@@ -296,3 +296,252 @@ hr {
   color: var(--buttonhover-color);
   transition: all 0.2s ease-in-out;
 }
+
+@media (max-width: 375px){
+
+.feature-body1 .titles{
+  font-size: 21px;
+  width: 345px;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.online-store-image{
+  width: 343.2px;
+  height: 160.01px;
+}
+
+.gaming-systems-image{
+  width: 342.4px;
+  height: 114.35px;
+}
+
+.under-image-online-store{
+  display: block;
+}
+
+.under-image-gaming-systems{
+  display: block;
+}
+
+.descriptions-online-store{
+  font-size: 18px;
+  width: 345px;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.descriptions-gaming-system{
+  font-size: 18px;
+  width: 345px;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.format-button-start-shopping{
+  width: 345px;
+  margin-left: 15px;
+
+}
+
+.format-button-explore-now{
+  width: 345px;
+  margin-left: 15px;
+}
+
+.big-cards-grid{
+  display: block;
+  margin-left: 15px;
+}
+
+.big-card-image{
+  width: 342.4px;
+  height: 192.6px;
+  
+}
+
+.adjust-date{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bolder{
+  width: 342px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.justify{
+  height: 60px;
+  width: 342.4px;
+  font-size: 14px;
+}
+
+.adjust-read-more{
+  font-size: 14px;
+}
+
+.small-cards-grid{
+  display: block;
+}
+
+.small-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 159.2px;
+  height: 89.55px;
+}
+
+.see-all-news-button{
+  width: 1715px;
+  margin-left: 15px;
+}
+
+.logo-block{
+  margin-left: 70px;
+}
+
+.text-block{
+  font-size: 16px;
+}
+
+}
+
+@media (max-width: 768px){
+.feature-body1 .titles{
+  font-size: 13px;
+  width: 320px;
+  margin-left: 75px;
+  margin-top: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.online-store-image{
+  margin-left: 75px;
+  width: 320px;
+  height: 152px;
+}
+
+.gaming-systems-image{
+  margin-left: 75px;
+  width: 320px;
+  height: 152px;
+}
+
+.under-image-online-store{
+  display: block;
+  margin-left: 75px;
+  width: 320px;
+}
+
+.under-image-gaming-systems{
+  display: block;
+  margin-left: 75px;
+  width: 320px;
+}
+
+.descriptions-online-store{
+  font-size: 8px;
+  margin:0;
+  width: 320px;
+  height: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.descriptions-gaming-system{
+  font-size: 8px;
+  margin:0;
+  width: 320px;
+  height: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.format-button-start-shopping{
+  height: 20px;
+  width: 320px;
+  margin-left: 0px;
+  border-radius: 2px;
+  font-size: 7px;
+}
+
+.format-button-explore-now{
+  height: 20px;
+  width: 320px;
+  margin-left: 0px;
+  border-radius: 2px;
+  font-size: 7px;
+}
+
+.big-cards-grid{
+  display: block;
+  margin-left: 75px;
+  width: 325px;
+}
+
+.big-card-image{
+  width: 321px;
+  height: 152px;
+  border-radius: 2px;
+}
+
+.adjust-date{
+  font-size: 8px;
+}
+
+.bolder{
+  font-size: 7px;
+  height: 20px;
+  width: 322px;
+  margin-bottom: 25px;
+}
+
+.justify{
+  width: 322px;
+  font-size: 7px;
+  height: 20px;
+}
+
+.adjust-read-more{
+  font-size: 7px;
+  margin-bottom: 17px;
+}
+
+.small-cards-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.see-all-news-button{
+  margin-left: 75px;
+  width: 1610px;
+  height: 20px;
+}
+
+.format-last-button{
+  border-radius: 2px;
+}
+
+.text-block{
+  font-size: 8px;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+
+.logo-button{
+  width: 10px;
+  height: 7px;
+  margin-bottom: 0px;
+}
+
+.logo-block{
+  margin-left: 100px;
+  margin-right: 3px;
+}
+}
