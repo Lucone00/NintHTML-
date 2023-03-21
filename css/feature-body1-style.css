@@ -10,31 +10,38 @@
   text-decoration: none;
 }
 
-.feature-body1 {
-  text-align: center;
-  font-family: var(--font-family);
-  margin-bottom: 3%;
+.feature-body1{
+    font-family: var(--font-family);
+    margin-bottom: 3%;
 }
 
-.online-store-image {
-  width: 78%;
-  height: 15%;
+.online-store-image{
+    width: 78%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.gaming-systems-image {
-  width: 78%;
+.gaming-systems-image{
+    width: 78%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.under-image-online-store {
-  width: 60%;
-  display: flex;
+.under-image-online-store{
+    width: 80%;
+    display: flex;
+
 }
 
-.descriptions-online-store {
-  color: var(--font-color);
-  margin-left: 18%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+.descriptions-online-store{
+    color: var(--font-color);
+    margin-left: 13.7%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .descriptions-gaming-system {
@@ -43,13 +50,13 @@
   margin-top: 3%;
 }
 
-.titles {
-  text-align: left;
-  color: var(--font-color);
-  width: 78%;
-  margin-left: 11%;
-  margin-bottom: 2%;
-  margin-top: 3%;
+.titles{
+    text-align: left;
+    color: var(--font-color);
+    width: 78%;
+    margin-left: 11%;
+    margin-bottom: 2%;
+    margin-top: 3%;
 }
 hr {
   border: none;
@@ -90,17 +97,17 @@ hr {
   font-size: 15px;
 }
 
-.format-last-button {
-  width: 20%;
-  height: 15%;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  font-weight: 700;
-  border-radius: 5px;
-  border-color: var(--secondary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.format-last-button{
+    width: 20%;
+    height: 15%;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: 700;
+    border-radius: 5px;
+    border-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-button {
