@@ -306,6 +306,7 @@ body{
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
+    transition: 200ms ease-in-out 25ms;
 }
 
 .slider-box .cardss:hover .game-name{
