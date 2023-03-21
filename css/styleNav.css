@@ -183,9 +183,7 @@ nav .top-side .buttons .log-in .avatar-box {
   align-items: center;
 }
 
-.bottom-side .all-boxes .box-bottom .box-logo {
-  border: 1px solid black;
-  width: 20px;
-  height: 20px;
+.bottom-side .all-boxes .box-bottom .box-logo, .arrow-logo {
   margin-right: 5px;
+  margin-left: 5px;
 }
