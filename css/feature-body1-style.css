@@ -16,7 +16,7 @@
 }
 
 .online-store-image{
-  width: 78%;
+  width: 75%;
   height: 15%;
   display: block;
   margin-left: auto;
@@ -24,7 +24,7 @@
 }
 
 .gaming-systems-image{
-  width: 78%;
+  width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,25 +38,30 @@
 
 .descriptions-online-store{
   color: var(--font-color);
-  margin-left: 10.8%;
+  margin-left: 12.3%;
   margin-top: 3%;
   margin-bottom: 3%;
-  margin-right: 1%;
+  font-size: 21px;
+  width: 65%;
 }
 
 .descriptions-gaming-system {
   color: var(--font-color);
-  margin-left: 14%;
+  margin-left: 15.8%;
   margin-top: 3%;
+  font-size: 21px;
+  padding-top: 7px;
+  margin-right: 17px;
 }
 
 .titles{
   text-align: left;
   color: var(--font-color);
   width: 78%;
-  margin-left: 11%;
+  margin-left: 12.3%;
   margin-bottom: 2%;
   margin-top: 3%;
+  font-size: 28px;
 }
 
 hr {
@@ -69,8 +74,8 @@ hr {
 }
 
 .format-button-start-shopping {
-  width: 12%;
-  height: 15%;
+  width: 171.34px;
+  height: 47.6px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   font-weight: 700;
@@ -80,12 +85,13 @@ hr {
   justify-content: space-around;
   align-items: center;
   margin-top: 3%;
-  font-size: 15px;
+  font-size: 18px;
+  margin-left: -15px;
 }
 
 .format-button-explore-now {
-  width: 12%;
-  height: 40px;
+  width: 153.23px;
+  height: 47.6px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   font-weight: 700;
@@ -96,7 +102,7 @@ hr {
   align-items: center;
   margin: 10px;
   margin-top: 3%;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .format-last-button{
@@ -113,23 +119,27 @@ hr {
 }
 
 .logo-button {
-  width: 35px;
-  height: 25px;
-  margin-top: 3%;
+  width: 20px;
+  height: 17.89px;
+  margin-top: 3px;
 }
 
 .logo-block {
-  height: 85%;
-  width: 14%;
-  margin-right: 3%;
+  height: 28px;
+  width: 25px;
+  margin-left: 13px;
+  margin-top: 9px;
 }
 
 .text-block {
-  height: 44%;
-  width: 67%;
-  font-size: 17px;
-  margin-left: 0;
+  height: 95%;
+  width: 90%;
+  font-size: 18px;
   color: var(--primary-color);
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 8px;
 }
 
 .under-image-gaming-systems {
@@ -143,18 +153,18 @@ hr {
 
 .big-cards-grid {
   display: inline-flex;
-  gap: 28px;
-  margin-left: 11%;
-  margin-right: 11%;
+  gap: 32px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .small-cards-grid {
   display: inline-flex;
-  gap: 28px;
-  margin-left: 11%;
-  margin-right: 11%;
+  gap: 32px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   padding-right: 0px;
 }
 
@@ -173,12 +183,15 @@ hr {
   text-align: justify;
   font-weight: lighter;
   color: var(--font-color);
+  font-size: 16px;
+  height: 50px;
 }
 
 .bolder {
   text-align: justify;
   color: var(--font-color);
-  height: 40px;
+  height: 70px;
+  font-size: 18px;
 }
 
 .adjust-read-more {
@@ -186,8 +199,9 @@ hr {
   color: var(--secondary-color);
   text-align: left;
   font-size: larger;
-  margin-bottom: 4%;
+  margin-bottom: 8%;
   margin-top: 2%;
+  font-size: 16px;
 }
 
 .adjust-date {
@@ -198,6 +212,7 @@ hr {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-size: 16px;
 }
 
 .adjust-small-date {
@@ -217,16 +232,21 @@ hr {
   font-size: larger;
   margin-bottom: 6%;
   margin-top: 2%;
+  font-size: 16px;
 }
 
 .see-all-news-button {
-  margin-left: 11%;
+  margin-left: 12.4%;
+  height: 300px;
+  width: 1250px;
+  margin-top: 2%;
 }
 
 .small-bolder {
   text-align: justify;
   color: var(--font-color);
   height: 55px;
+  font-size: 16px;
 }
 
 .format-button:hover > .text-block {
