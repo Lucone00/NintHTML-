@@ -139,7 +139,7 @@
     margin-left: 11%;
     margin-right: 11%;
     padding-left: 0px;
-    padding-right: 0px;  
+    padding-right: 0px; 
 }
 
 .small-cards-grid{
@@ -158,6 +158,7 @@
 .big-card-image{
     width:100%;
     border-radius: 5px;
+    height: 300px;
 }
 
 .justify {
@@ -169,7 +170,7 @@
 .bolder{
     text-align: justify;
     color: var(--font-color);
-    padding-bottom: 1%;
+    height: 40px;
 }
 
 
@@ -178,7 +179,16 @@
     color: var(--secondary-color);
     text-align: left;
     font-size: larger;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.adjust-small-read-more{
+    text-decoration: underline;
+    color: var(--secondary-color);
+    text-align: left;
+    font-size: larger;
+    margin-bottom: 6%;
     margin-top: 2%;
 }
 
@@ -202,15 +212,6 @@
     margin-bottom: 2%;
 }
 
-.adjust-small-read-more{
-    text-decoration: underline;
-    color: var(--secondary-color);
-    text-align: left;
-    font-size: larger;
-    margin-bottom: 6%;
-    margin-top: 2%;
-}
-
 .see-all-news-button{
     margin-left: 11%;
 }
@@ -218,6 +219,7 @@
 .small-bolder{
     text-align: justify;
     color: var(--font-color);
+    height: 50px;
 }
 
 .format-button:hover > .text-block{
