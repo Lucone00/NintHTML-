@@ -10,9 +10,10 @@
   width: 100%;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  width: 100vw;
+  max-width: 1180px;
   font-weight: 100;
   color: var(--font-color);
+  margin: auto;
 }
 
 .feat-title {
@@ -26,13 +27,14 @@
 .card {
   display: flex;
   overflow: auto;
+  margin: 0 40px 0 40px;
 }
 
 .card-featured {
   width: 16.375rem;
   display: block;
   margin: 16px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid lightgray;
   border-radius: 0.25rem;
 }
 
@@ -93,12 +95,17 @@
   top: 0;
 }
 
-.card-hover:hover,
-.container-img:hover {
+.card-featured:hover .container-img  {
   top: -10px;
-  color: var(--secondary-color);
   transition: all 200ms ease-in-out 0s;
 }
+
+.card-featured:hover .card-description{
+  color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+
 
 .card-description {
   height: 4rem;
