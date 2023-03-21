@@ -1,0 +1,415 @@
+
+@import url(./root.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family)
+}
+
+
+/* DIGITAL BEST SELLERS TITLE */
+.sellers-releases{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1180px;
+}
+
+.sellers-releases .digital-best-sellers{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sellers-releases .digital-best-sellers .titles{
+    display: flex;
+    margin: 50px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+
+.sellers-releases .digital-best-sellers .titles h3{
+   margin: 0;
+   border-right: 1px solid var(--font-color);
+   margin-right: 15px;
+   padding-right: 15px;
+   color: var(--font-color);
+   font-size: 27px;
+}
+
+.sellers-releases .digital-best-sellers .titles .link-titles{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sellers-releases .digital-best-sellers .titles span{
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.sellers-releases .digital-best-sellers .titles .link-titles:hover span{
+    color: var(--buttonhover-color);
+    border-bottom: 2px solid var(--buttonhover-color);
+    transition: 0.5s;
+}
+
+
+
+/* CARDS */
+
+.slider-box{
+    margin: 0 40px 0 40px;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    gap: 2.5rem;
+    position: relative;
+}
+
+.slider-box .cardss{
+    border: 1px solid lightgray;
+    height: 330px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+.slider-box .cardss .link-card{
+    width: 259px;
+    height: 100%;
+    text-decoration: none;
+    color: var(--font-color);   
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-box .cardss .top-image-box{
+    height: 42%;
+}
+
+.slider-box .cardss .top-image{
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.slider-box .cardss .image1{
+    background-image: url(../assets/metroid_prime_remastered.avif);
+}
+
+.slider-box .cardss .image2{
+    background-image: url(../assets/WBSC\ eBASEBALL\ POWER\ PROS.avif);
+}
+
+.slider-box .cardss .image3{
+    background-image: url(../Assets/the\ legend_of_zelda.avif)
+}
+
+.slider-box .cardss .image4{
+    background-image: url(../Assets/inside.avif);
+}
+
+.slider-box .cardss .image5{
+    background-image: url(../Assets/minecraft.avif);
+}
+
+.slider-box .cardss .image6{
+    background-image: url(../Assets/stardew\ valley.avif);
+}
+
+.slider-box .cardss .image7{
+    background-image: url(../Assets/mariokart.avif);
+}
+
+.slider-box .cardss .image8{
+    background-image: url(../Assets/overcooked.avif);
+}
+
+.slider-box .cardss .image9{
+    background-image: url(../Assets/Amongus.avif);
+}
+
+.slider-box .cardss .image10{
+    background-image: url(../Assets/mortalkombat.avif);
+}
+
+.slider-box .cardss .image11{
+    background-image: url(../Assets/Nintendo_sports.avif);
+}
+
+.slider-box .cardss .image12{
+    background-image: url(../Assets/green_hell.avif);
+}
+
+.slider-box .cardss .image13{
+    background-image: url(../Assets/realboxing.avif);
+}
+
+.slider-box .cardss .image14{
+    background-image: url(../Assets/marioparty.avif);
+}
+
+.slider-box .cardss .image15{
+    background-image: url(../Assets/supersmash.avif);
+}
+
+.slider-box .cardss .image16{
+    background-image: url(../Assets/dog.avif);
+}
+
+
+.slider-box .cardss .game-name-price{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.slider-box .cardss .game-name-date{
+     height: 40px;
+     display: flex;
+     flex-direction: column;
+     gap: 0.5rem;
+     flex-grow: 1;
+}
+
+.slider-box .cardss .game-name-date .game-name{
+    font-weight: 600;
+}
+
+.slider-box .cardss .game-name-date .game-date{
+    font-size: 12px;
+    color: gray;
+}
+
+.slider-box .cardss .sale{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 13px;
+    width: 160px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.slider-box .cardss .selling-data{
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.slider-box .cardss .selling-data .price{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+
+.slider-box .cardss .selling-data .price span:first-child{
+    font-weight: bold;
+}
+
+.slider-box .cardss .selling-data .price span:nth-child(2){
+    font-size: 12px;
+    text-decoration: line-through;
+    margin: auto 10px auto 10px ;
+    
+}
+
+.slider-box .cardss .selling-data .price .discount{
+    display: flex;
+}
+
+.slider-box .cardss .selling-data .price .discount .discount-image{
+    width: 7px;
+    height: 18px;
+    background-image: url(/assets/discount.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider-box .cardss .selling-data .price .discount div:nth-child(2){
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-bottom-left-radius: 2px ;
+    background-color: var(--secondary-color);
+    height: 18px;
+    margin-left: -1px;
+    width: 35px; ;   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slider-box .cardss .selling-data .console{
+    font-size: 15px;
+    border-left: 2px solid var(--secondary-color);
+    padding-left: 8px;
+    color: gray;
+}   
+
+.slider-box .cardss .add-favorite{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 45px;
+    color: var(--secondary-color);
+    margin-right: 15px ;
+}   
+
+.slider-box .cardss .add-favorite a{
+    font-size: 45px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}   
+
+.slider-box .full-list{
+    height: 330px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-box .full-list-button{
+    border: none;
+    background-color: var(--secondary-color);
+    width: 150px;
+    height: 92%;
+    color: var(--primary-color);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.slider-box .cardss:hover .game-name{
+    color: var(--secondary-color);
+    transition: 0.3s;
+}
+
+.slider-box .cardss:hover .top-image{
+   margin-top: -10px;
+   transition: 0.3s;
+   border-top: 1px solid lightgray ;
+}
+
+.slider-box .cardss .add-favorite a:hover{
+    color: var(--buttonhover-color);
+    transition: 0.5s;
+}
+
+.slider-box .full-list .full-list-button:hover{
+    transform: scale(1.05);
+}
+
+/* Digital new releases */
+
+.slider-box .cardss .image17{
+    background-image: url(../Assets/fatalFrame.avif);
+}
+
+.slider-box .cardss .image18{
+    background-image: url(../Assets/Figment2.avif);
+}
+
+.slider-box .cardss .image19{
+    background-image: url(../Assets/Oni.avif);
+}
+
+.slider-box .cardss .image20{
+    background-image: url(../Assets/DeadCells.avif);
+}
+
+.slider-box .cardss .image21{
+    background-image: url(../Assets/FitnessBoxing.avif);
+}
+
+.slider-box .cardss .image22{
+    background-image: url(../Assets/Aery.avif);
+}
+
+.slider-box .cardss .image23{
+    background-image: url(../Assets/Pokemonscarlet.avif);
+}
+
+.slider-box .cardss .image24{
+    background-image: url(../Assets/pokemonViolet.avif);
+}
+
+.slider-box .cardss .image25{
+    background-image: url(../Assets/pokemonScarletBundle.avif);
+}
+
+.slider-box .cardss .image26{
+    background-image: url(../Assets/pokemonVioletBundle.avif);
+}
+
+.slider-box .cardss .image27{
+    background-image: url(../Assets/Kirbysreturn.avif);
+}
+
+.slider-box .cardss .image28{
+    background-image: url(../Assets/Octopath.avif);
+}
+
+.slider-box .cardss .image29{
+    background-image: url(../Assets/TalesOfSymphonia.avif);
+}
+
+.slider-box .cardss .image30{
+    background-image: url(../Assets/Theatrhythm.avif);
+}
+
+.slider-box .cardss .image31{
+    background-image: url(../Assets/dust&neon.avif);
+}
+
+.slider-box .cardss .image32{
+    background-image: url(../Assets/blanc.avif);
+}
+
+.slider-box .cardss .image33{
+    background-image: url(../Assets/metroid_prime_remastered.avif);
+}
+
+.slider-box .cardss .image34{
+    background-image: url(../Assets/Spongeboob.avif);
+}
+
+.slider-box .cardss .image35{
+    background-image: url(../Assets/powerwash.avif);
+}
+
+.slider-box .cardss .image36{
+    background-image: url(../Assets/oddballers.avif);
+}
+
+.slider-box .cardss .image37{
+    background-image: url(../Assets/fireEmblemEngage.avif);
+}
+
+.slider-box .cardss .image38{
+    background-image: url(../Assets/persona3.avif);
+}
+
+.slider-box .cardss .image39{
+    background-image: url(../Assets/SailForth.avif);
+}
+
+.slider-box .cardss .image40{
+    background-image: url(../Assets/SportStory.avif);
+}
+
+
+
