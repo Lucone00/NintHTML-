@@ -43,7 +43,7 @@ nav .top-side .box-logo .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
   width: 70px;
   height: 15px;
   border-radius: 70px;
@@ -191,3 +191,30 @@ nav .top-side .search-bar:hover .search {
 }
 
 /* media query */
+
+@media (max-width: 1024px) {
+  nav .bottom-side {
+    display: none;
+  }
+  nav .top-side {
+    border: none;
+    background-color: var(--secondary-color);
+  }
+  nav .top-side .buttons {
+    display: none;
+  }
+  nav .top-side .search-bar {
+    display: none;
+  }
+  nav .top-side .box-logo{
+    margin: 10px;
+  }
+
+  nav .top-side .box-logo .logo {
+    width: 115px;
+    height: fit-content;
+  }
+  nav .top-side .box-logo .logo .nintendo {
+    font-size: 20px;
+  }
+}
