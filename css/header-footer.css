@@ -5,6 +5,7 @@
   
   width: 120%;
   height: 520px;
+  display: flex;
   
 }
 
@@ -13,6 +14,7 @@
   width: 100%;
   z-index: -1;
   background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0/ncom/en_US/merchandising/center-stage-banner/bayonetta-origins/3600x800_BayoOrigins_LandingHeaderBG_03);
+  display: flex;
 }
 
 .image-behind {
@@ -27,15 +29,18 @@
 .image-behind img {
   margin-top: 190px;
   width: 96%;
+  display: flex;
 }
 
 .immagine-principale{
  max-width: 1440px;
+ display: flex;
  
 }
 
 .spazio-vuoto {
   height: 106px;
+  display: flex;
 }
 
 .container-gioco {
@@ -69,18 +74,45 @@
   font-size: 15px;
 }
 
+.bottone:hover{
+  width: 132px;
+  height: 48px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .esrb a{
   text-decoration: none;
   color: var(--font-color);
+  display: flex;
+  
+}
+
+.esrb-testo{
+  display: flex;
+  color: var(--font-color);
+  text-align: start;
+  margin-left: 30px;
+  align-items: center;
 }
 
 
 
 a:hover .bottone{
   background-color:  var(--buttonhover-color);
+  display: flex;
 }
 
-.footer .h3{
+
+
+.footer-h3{
+  display: flex;
   text-decoration: underline solid transparent;
   color: black;
   cursor: pointer;
@@ -90,7 +122,8 @@ a:hover .bottone{
   transition: text-decoration 0.2s ease;
 }
 
-.footer .h3 a{
+.footer-h3 a{
+  display: flex;
   text-decoration: underline solid transparent;
   color: rgb(2, 2, 2);
   cursor: pointer;
@@ -100,7 +133,8 @@ a:hover .bottone{
   transition: text-decoration 0.2s ease;
 }
 
-.footer .h3 a:hover {
+.footer-h3 a:hover {
+  display: flex;
   text-decoration: underline rgb(0, 0, 0) 3px;
 }
 
@@ -114,7 +148,15 @@ a:hover .bottone{
   margin-top: 80px;
 }
 
+.footer-nintendo-red-2{
+  display: flex;
+  max-width: 1440px;
+  justify-content: flex-start;
+}
+
+
 .footer-nintendo-red img {
+  display: flex;
   margin-left: 100px;
   width: auto;
   height: 80px;
@@ -122,7 +164,7 @@ a:hover .bottone{
 
 .footer-nintendo-red .social-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 30px;
   width: 300px;
   margin-right: 50px;
@@ -130,6 +172,10 @@ a:hover .bottone{
 
 .social-links svg {
   color: var(--primary-color);
+  display: flex;
+  
+  
+ 
 }
 
 .footer-under {
@@ -149,6 +195,7 @@ a:hover .bottone{
 }
 
 .footer-under .footer-box a {
+  display: flex;
   text-decoration: underline solid transparent;
   color: var(--secondary-color);
   cursor: pointer;
@@ -159,10 +206,12 @@ a:hover .bottone{
 }
 
 .footer-under .footer-box a:hover {
+  display: flex;
   text-decoration: underline var(--secondary-color) 3px;
 }
 
 .footer-under .footer-box .h3 {
+  display: flex;
   font-size: 18px;
   font-family: "museo sans rounded", sans-serif;
 }
@@ -182,6 +231,7 @@ a:hover .bottone{
 }
 
 .footer-under .footer-double-box .double-box-doubled a {
+  display: flex;
   text-decoration: underline solid transparent;
   color: var(--secondary-color);
   cursor: pointer;
@@ -192,10 +242,12 @@ a:hover .bottone{
 }
 
 .footer-under .footer-double-box .double-box-doubled a:hover {
+  display: flex;
   text-decoration: underline var(--secondary-color) 3px;
 }
 
 .footer-under .footer-double-box .double-box-doubled h3 {
+  display: flex;
   font-size: 18px;
   font-family: "museo sans rounded", sans-serif;
 }
@@ -210,21 +262,23 @@ a:hover .bottone{
 }
 
 .safet-svg svg {
+  display: flex;
   height: 86px;
   width: 64px;
 }
 
 .black-bar {
+  display: flex;
   height: 150px;
   width: 100%;
   background-color: rgb(12, 10, 10);
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
 
 .copyright p {
+  display: flex;
   color: var(--font-color);
   font-family: "museo sans rounded", sans-serif;
 }
@@ -235,6 +289,7 @@ a:hover .bottone{
 }
 
 .black-bar-links a {
+  display: flex;
   text-decoration: underline solid transparent;
   color: var(--primary-color);
   font-family: "museo sans rounded", sans-serif;
@@ -242,14 +297,19 @@ a:hover .bottone{
 }
 
 .black-bar-links a:hover {
+  display: flex;
   text-decoration: underline var(--primary-color) 2px;
 }
 
-.bottone:hover{
-  background-color: var(--buttonhover-color);
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1,1.1);
-  font-size: 12px;
+.black-bar-testo{
+display: flex;
+  color: var(--primary-color);
+  text-align: start;
+  margin-left: 30px;
+  align-items: center;
 }
+
+
+
 
 

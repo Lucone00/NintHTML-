@@ -1,11 +1,5 @@
 @import "./css/root.css";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .feature-body1 a {
   text-decoration: none;
 }
@@ -159,11 +153,13 @@ hr {
 .big-cards-grid {
   display: inline-flex;
   gap: 2rem;
+  padding: 20px;
 }
 
 .small-cards-grid {
   display: inline-flex;
   gap: 32px;
+  padding:20px;
 }
 
 .small-card-image {
