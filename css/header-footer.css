@@ -2,64 +2,63 @@
 
 
 .image-header {
-  
-  width: 120%;
+  width: 100%;
   height: 520px;
   display: flex;
-  
+  margin-bottom: 130px;
 }
 
 .image-header .image-behind {
-  height: 100%;
-  width: 100%;
+  height: 520px;
+  width: 100vw;
   z-index: -1;
   background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/dpr_2.0/ncom/en_US/merchandising/center-stage-banner/bayonetta-origins/3600x800_BayoOrigins_LandingHeaderBG_03);
-  display: flex;
-}
-
-.image-behind {
-  width: 100vw;
-  height: 520px;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 96%;
 }
+
 
 .image-behind img {
-  margin-top: 190px;
+  margin-top: 15rem;
   width: 96%;
   display: flex;
-}
-
-.immagine-principale{
- max-width: 1440px;
- display: flex;
- 
-}
-
-.spazio-vuoto {
-  height: 106px;
+  max-width: 1440px;
   display: flex;
 }
 
 .container-gioco {
   height: 120px;
-  width: 100%;
+  width: 96%;
+  max-width: 1440px;
   display: flex;
+  margin: auto;
   align-items: center;
-  justify-content: space-between;
+  font-size: 15px;
+
+  margin-bottom: 1rem;
+}
+
+.game-button{
+  display: flex;
+  flex-grow: 1 ;
 }
 
 .titolo-gioco {
   display: flex;
   color: var(--font-color);
   text-align: start;
-  margin-left: 30px;
+}
+
+.titolo-gioco h1{
+  margin-right: 15px;
+  font-size: 28px;
 }
 
 .bottone{
-  width: 130px;
+  width: 140px;
   height: 40px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -70,21 +69,18 @@
   justify-content: space-around;
   align-items: center;
   margin: 10px;
-  margin-top: 0px;
-  font-size: 15px;
+}
+
+header .space-beetween{
+  display: flex;
+  flex-grow: 1;
 }
 
 .bottone:hover{
-  width: 132px;
-  height: 48px;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  border-radius: 0.25rem;
-  transition: all 0.2s ease-in;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  animation-name: buttonBouncing;
+  animation-duration: .8s;
+  animation-timing-function: ease-in-out;
+  background-color:  var(--buttonhover-color);
 }
 
 .esrb a{
@@ -98,18 +94,10 @@
   display: flex;
   color: var(--font-color);
   text-align: start;
-  margin-left: 30px;
+  margin-left: 10px;
   align-items: center;
+  font-size: 10px;
 }
-
-
-
-a:hover .bottone{
-  background-color:  var(--buttonhover-color);
-  display: flex;
-}
-
-
 
 .footer-h3{
   display: flex;
@@ -173,9 +161,6 @@ a:hover .bottone{
 .social-links svg {
   color: var(--primary-color);
   display: flex;
-  
-  
- 
 }
 
 .footer-under {
