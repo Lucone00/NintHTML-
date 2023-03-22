@@ -71,7 +71,6 @@ hr {
   border: none;
   height: 0.1px;
   background-color: rgb(158, 153, 153);
-  margin: 20px 0;
   display: block; /* Ensure that the hr element is a block-level element */
   clear: both;
 }
@@ -168,7 +167,6 @@ hr {
 .big-card-image {
   width: 100%;
   border-radius: 5px;
-  height: 350px;
 }
 
 .justify {
@@ -223,6 +221,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 18px;
 }
 
 .adjust-small-read-more {
@@ -238,6 +237,7 @@ hr {
 .see-all-news-button {
   width: 252.19px;
   height: 48.19px;
+  margin-top: 20px;
 }
 
 .small-bolder {
@@ -537,11 +537,6 @@ hr {
 .big-cards-grid{
   display: block;
   margin-left: 15px;
-  padding:20px;
-}
-
-.small-cards-grid{
-  padding: 20px;
 }
 
 .big-card-image{
@@ -600,4 +595,40 @@ hr {
   height: 17.89px;
   margin-bottom: 0px;
 }
+}
+
+@media (max-width: 1024px){
+
+  .under-image-online-store{
+    flex-direction: column;
+  }
+
+  .descriptions-online-store{
+    width: 100%;
+  }
+
+  .format-button-start-shopping{
+    width: 100%;
+  }
+
+  .under-image-gaming-systems{
+    flex-direction: column;
+  }
+
+  .descriptions-gaming-system{
+    width: 100%;
+  }
+
+  .format-button-explore-now{
+    width: 1025px;
+  }
+
+  .see-all-news-button{
+    width: 100%;
+  }
+
+  .logo-block{
+    margin-left: 390px;
+  }
+
 }
