@@ -468,7 +468,6 @@ hr {
   margin-left: 15px;
   margin-top: 30px;
   margin-bottom: 20px;
-
 }
 
 .online-store-image{
@@ -486,19 +485,18 @@ hr {
 .under-image-online-store{
   display: block;
   margin-left: 15px;
-  width: 320px;
+  width: 736px;
 }
 
 .under-image-gaming-systems{
   display: block;
   margin-left: 15px;
-  width: 320px;
+  width: 100%;
 }
 
 .descriptions-online-store{
   font-size: 18px;
   margin:0;
-  width: 735px;
   height: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -507,14 +505,14 @@ hr {
 .descriptions-gaming-system{
   font-size: 18px;
   margin:0;
-  width: 735px;
   height: 50px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .format-button-start-shopping{
   height: 47.6px;
-  width: 734.8px;
+  width: 100%;
   margin-left: 0;
   border-radius: 2px;
   font-size: 18px;
@@ -522,7 +520,7 @@ hr {
 
 .format-button-explore-now{
   height: 47.6px;
-  width: 734.8px;
+
   margin-left: 0;
   border-radius: 2px;
   font-size: 18px;
@@ -576,18 +574,14 @@ hr {
 .text-block{
   font-size: 18px;
   margin-bottom: -2px;
-  margin-left: 0;
-}
-
-.logo-block{
-  margin-left: 270px;
-  margin-right: 15px;
+  margin-left: -120px;
 }
 
 .logo-button{
   width: 20px;
   height: 17.89px;
   margin-bottom: 0px;
+  margin-left: -270px;
 }
 }
 
