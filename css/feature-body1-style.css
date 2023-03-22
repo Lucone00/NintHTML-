@@ -153,13 +153,11 @@ hr {
 .big-cards-grid {
   display: inline-flex;
   gap: 2rem;
-  padding: 20px;
 }
 
 .small-cards-grid {
   display: inline-flex;
   gap: 32px;
-  padding:20px;
 }
 
 .small-card-image {
@@ -539,6 +537,11 @@ hr {
 .big-cards-grid{
   display: block;
   margin-left: 15px;
+  padding:20px;
+}
+
+.small-cards-grid{
+  padding: 20px;
 }
 
 .big-card-image{
