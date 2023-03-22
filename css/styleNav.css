@@ -321,6 +321,214 @@ nav .top-side .search-bar:hover .search::placeholder {
 .bottom-side .all-boxes #first-menu:active .bg-hidden1 {
   display: block;
 }
+/*bg menu 2*/
+.bg-hidden2 {
+  display: none;
+  z-index: -100;
+  width: 100%;
+  position: absolute;
+  top:  107px;
+  right: 0px;
+}
+
+.bg-hidden2 .background {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.bg-hidden2 .background .x-button2 {
+  display: flex;
+  justify-content: end;
+  margin: 5px 10px 5px 10px;
+  color: rgb(170, 170, 170)
+}
+
+.bg-hidden2 .background .x-button2:hover {
+  transition: ease 500ms;
+  color: black;
+}
+
+.bg-hidden2 .background .all-games-boxes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 20px;
+}
+
+.bg-hidden2 .background .all-games-boxes .content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+}
+
+.bg-hidden2 .background .all-games-boxes .content-box .box-content-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(170, 170, 170);
+  width: 130px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.bottom-side .all-boxes #second-menu:active .bg-hidden2 {
+  display: block;
+}
+
+/*bg menu3*/
+ 
+.bg-hidden3 {
+  display: none;
+  z-index: -100;
+  width: 100%;
+  position: absolute;
+  top:  107px;
+  right: 0px;
+}
+
+.bg-hidden3 .background {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.bg-hidden3 .background .x-button2 {
+  display: flex;
+  justify-content: end;
+  margin: 5px 10px 5px 10px;
+  color: rgb(170, 170, 170)
+}
+
+.bg-hidden3 .background .x-button2:hover {
+  transition: ease 500ms;
+  color: black;
+}
+
+.bg-hidden3 .background .all-NS-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bg-hidden3 .background .all-NS-boxes .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bg-hidden3 .background .all-NS-boxes .content .box-lineup{
+  display: flex;
+  border: solid rgb(170, 170, 170) 1px;
+  height: 70px;
+  width: 210px;
+  border-radius: 5px;
+}
+
+.bg-hidden3 .background .all-NS-boxes .content .box-lineup .image-lineup {
+  background-image: url(https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.0/c_scale,w_300/Dev/Global%20Navigation/lineup.png);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-hidden3 .background .all-NS-boxes .content .box-service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(170, 170, 170) 1px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.bg-hidden3 .background .all-NS-boxes .content .box-service .image-accessories {
+  background-image: url(https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.0/c_scale,w_200/Dev/Global%20Navigation/procon.png);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-hidden3 .background .all-NS-boxes .content .box-service .image-SS {
+  background-image: url(https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.0/c_scale,w_200/Dev/Global%20Navigation/oled.png);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-side .all-boxes #third-menu:active .bg-hidden3 {
+  display: block;
+}
+
+/*bg menu4*/
+.bg-hidden4 {
+  display: none;
+  z-index: -100;
+  width: 100%;
+  position: absolute;
+  top:  107px;
+  right: 0px;
+}
+
+.bg-hidden4 .background {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.bg-hidden4 .background .x-button2 {
+  display: flex;
+  justify-content: end;
+  margin: 5px 10px 5px 10px;
+  color: rgb(170, 170, 170)
+}
+
+.bg-hidden4 .background .x-button2:hover {
+  transition: ease 500ms;
+  color: black;
+}
+
+
+.bg-hidden4 .background .all-PN-boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.bg-hidden4 .background .all-PN-boxes .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bg-hidden4 .background .all-PN-boxes .content .logo-PN-box {
+  display: flex;
+  border: solid rgb(170, 170, 170) 1px;
+  border-radius: 5px;
+  width: 120px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-side .all-boxes #fourth-menu:active .bg-hidden4 {
+  display: block;
+}
 
 /* media query */
 
