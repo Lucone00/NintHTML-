@@ -309,6 +309,14 @@ hr {
 
 @media (max-width: 375px){
 
+.media-query-small-read-more{
+  margin-top: -30px;
+}
+
+.even-media-query-small-read-more{
+  margin-top: -20px;
+}
+
 .media-query-grid1{
   display: block;
   margin-left: 28px;
@@ -442,7 +450,17 @@ hr {
 }
 
 @media (max-width: 768px){
-.feature-body1 .titles{
+
+  .media-query-grid1{
+    display: block;
+  }
+
+  .media-query-grid2{
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .feature-body1 .titles{
   font-size: 13px;
   width: 320px;
   margin-left: 75px;
@@ -540,12 +558,6 @@ hr {
 .adjust-read-more{
   font-size: 7px;
   margin-bottom: 17px;
-}
-
-.small-cards-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .see-all-news-button{
