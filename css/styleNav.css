@@ -1,17 +1,5 @@
 @import url('./root.css');
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: var(--font-family);
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  color: var(--font-color);
-}
-
 nav {
   display: flex;
   flex-direction: column;
@@ -140,7 +128,7 @@ nav .top-side .buttons .top-box:hover .top-box-logo, .top-box:hover .top-box-p {
   cursor: pointer;
 }
 
-nav .top-side .search-bar:hover .search {
+nav .top-side .search-bar:hover .search::placeholder {
   transition: ease 300ms;
   color: var(--secondary-color);
   cursor: pointer;
@@ -194,6 +182,146 @@ nav .top-side .search-bar:hover .search {
   transform: rotate(0.5turn);
 }
 
+
+
+/*bg menu1*/
+
+.bg-hidden1 {
+  display: none;
+  z-index: -100;
+  width: 100%;
+  position: absolute;
+  top:  107px;
+  right: 0px;
+}
+
+.bg-hidden1 .my-nintendo-title-bg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:19rem;
+  background-color: white;
+}
+
+.bg-hidden1 .my-nintendo-title-bg .background {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 3rem;
+  background-color: #E60012;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-hidden1 .my-nintendo-title-bg .background .svg-name{
+  margin-left: auto;
+  color: white;
+}
+
+.bg-hidden1 .my-nintendo-title-bg .background .x-button{
+  margin-left: auto;
+  margin-right: 10px;
+  color: white;
+}
+
+.bg-hidden1 .my-nintendo-title-bg .background .x-button svg:hover {
+  transition: ease 500ms;
+  color: rgb(200, 200, 200);
+}
+
+.bg-hidden1 .my-nintendo-title-bg .corner {
+  position: absolute;
+  width: 100%;
+  height: 14px;
+  background-size: auto 14px;
+  background-repeat: repeat-x;
+  z-index: 1;
+  top: 48px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDVweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgNDUgMTQiIHZlcnNpb249IjEuMSIKICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDx0aXRsZT5TdG9yZWZyb250LWF3bmluZy1wYXR0ZXJuPC90aXRsZT4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJTdG9yZWZyb250LWF3bmluZy1wYXR0ZXJuIiBmaWxsPSIjRTYwMDEyIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8cGF0aCBkPSJNNDUsMCBMMCwwIEwwLDEzLjc3MzY4IEMxLjMzMzAyMDAxLDEzLjgzNzcxOTMgMi42NDkxNDAxMywxMy40NTM5MDE4IDMuNzM4NzcsMTIuNjgzMzUgTDE5LjI4NDQ4LDEuNjI4NjYgQzIxLjM2NjIzOTQsMC4xNDgzMTg1OTggMjQuMTU3MDEwNiwwLjE0ODMxODU5OCAyNi4yMzg3NywxLjYyODY2IEw0MS43ODQ0OCwxMi42ODMzNSBDNDIuNzI4MzU2MywxMy4zNTAwNDM4IDQzLjg0NTI4NSwxMy43Mjg3NzYgNDUsMTMuNzczNjggTDQ1LDAgWiIgaWQ9IlBhdGgiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==);
+}
+
+.all-boxes-hidden {
+  display: flex;
+  flex-direction: row;
+  width: 75rem;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 25px;
+  align-items: top;
+
+}
+
+.all-boxes-hidden .menu-box, .links {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.all-boxes-hidden .menu-box {
+  display: flex;
+  gap: 10px;
+  margin-left: 3rem;
+
+}
+
+.all-boxes-hidden .menu-box .title-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.all-boxes-hidden .menu-box .title-box .svg svg {
+  color: red;
+}
+.all-boxes-hidden .menu-box .links {
+  gap: 10px;
+}
+
+.all-boxes-hidden .menu-box .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.all-boxes-hidden .menu-box .title-box:hover .title {
+  color: red;
+  transition: 500ms ease;
+}
+
+.all-boxes-hidden .menu-box .links a:hover {
+  color: red;
+  transition: 500ms ease;
+}
+
+.shop-all-button {
+  display: flex;
+  position: relative;
+  top: 55px;
+  justify-content: center;
+}
+
+.shop-all-button button {
+  width: 100px;
+  height: 45px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+  font-size: 15px;
+  font-weight: bold ;
+}
+
+.shop-all-button button:hover {
+  transition: ease 500ms;
+  
+  background-color: rgb(253,230,231)
+}
+
+.bottom-side .all-boxes #first-menu:active .bg-hidden1 {
+  display: block;
+}
+
 /* media query */
 
 @media (max-width: 1024px) {
@@ -203,6 +331,7 @@ nav .top-side .search-bar:hover .search {
   nav .top-side {
     border: none;
     background-color: var(--secondary-color);
+    height: 65px;
   }
   nav .top-side .buttons {
     display: none;
@@ -211,15 +340,17 @@ nav .top-side .search-bar:hover .search {
     display: none;
   }
   nav .top-side .box-logo{
-    margin: 1px;
+    height: fit-content;
+    width: fit-content;
+    margin: 20px;
   }
 
   nav .top-side .box-logo .logo {
     border: 3px solid var(--primary-color);
-    width: 85px;
+    width: 98px;
     height: fit-content;
   }
   nav .top-side .box-logo .logo .nintendo {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
