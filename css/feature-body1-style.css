@@ -71,7 +71,6 @@ hr {
   border: none;
   height: 0.1px;
   background-color: rgb(158, 153, 153);
-  margin: 20px 0;
   display: block; /* Ensure that the hr element is a block-level element */
   clear: both;
 }
@@ -168,7 +167,6 @@ hr {
 .big-card-image {
   width: 100%;
   border-radius: 5px;
-  height: 350px;
 }
 
 .justify {
@@ -223,6 +221,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 18px;
 }
 
 .adjust-small-read-more {
@@ -238,6 +237,7 @@ hr {
 .see-all-news-button {
   width: 252.19px;
   height: 48.19px;
+  margin-top: 20px;
 }
 
 .small-bolder {
@@ -344,9 +344,7 @@ hr {
 }
 
 .under-image-online-store{
-  display: block;
   margin-left: 15px;
-  width: 320px;
 }
 
 .under-image-gaming-systems{
@@ -455,17 +453,13 @@ hr {
 
   .media-query-grid1{
     display: block;
-    margin-left: -80px;
+    margin-left: 14px;
   }
 
   .media-query-grid2{
     display: block;
     margin-bottom: 40px;
-  }
-
-  .small-card-image{
-    width: 355.6px;
-    height: 200.3px;
+    margin-right: -18px;
   }
 
   .feature-body1 .titles{
@@ -474,7 +468,6 @@ hr {
   margin-left: 15px;
   margin-top: 30px;
   margin-bottom: 20px;
-
 }
 
 .online-store-image{
@@ -492,19 +485,18 @@ hr {
 .under-image-online-store{
   display: block;
   margin-left: 15px;
-  width: 320px;
+  width: 736px;
 }
 
 .under-image-gaming-systems{
   display: block;
   margin-left: 15px;
-  width: 320px;
+  width: 100%;
 }
 
 .descriptions-online-store{
   font-size: 18px;
   margin:0;
-  width: 735px;
   height: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -513,14 +505,14 @@ hr {
 .descriptions-gaming-system{
   font-size: 18px;
   margin:0;
-  width: 735px;
   height: 50px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .format-button-start-shopping{
   height: 47.6px;
-  width: 734.8px;
+  width: 100%;
   margin-left: 0;
   border-radius: 2px;
   font-size: 18px;
@@ -528,7 +520,7 @@ hr {
 
 .format-button-explore-now{
   height: 47.6px;
-  width: 734.8px;
+
   margin-left: 0;
   border-radius: 2px;
   font-size: 18px;
@@ -537,11 +529,6 @@ hr {
 .big-cards-grid{
   display: block;
   margin-left: 15px;
-  padding:20px;
-}
-
-.small-cards-grid{
-  padding: 20px;
 }
 
 .big-card-image{
@@ -587,17 +574,49 @@ hr {
 .text-block{
   font-size: 18px;
   margin-bottom: -2px;
-  margin-left: 0;
-}
-
-.logo-block{
-  margin-left: 270px;
-  margin-right: 15px;
+  margin-left: -120px;
 }
 
 .logo-button{
   width: 20px;
   height: 17.89px;
   margin-bottom: 0px;
+  margin-left: -270px;
 }
+}
+
+@media (max-width: 1024px){
+
+  .under-image-online-store{
+    flex-direction: column;
+  }
+
+  .descriptions-online-store{
+    width: 100%;
+  }
+
+  .format-button-start-shopping{
+    width: 100%;
+  }
+
+  .under-image-gaming-systems{
+    flex-direction: column;
+  }
+
+  .descriptions-gaming-system{
+    width: 100%;
+  }
+
+  .format-button-explore-now{
+    width: 1025px;
+  }
+
+  .see-all-news-button{
+    width: 100%;
+  }
+
+  .logo-block{
+    margin-left: 390px;
+  }
+
 }
