@@ -1,11 +1,5 @@
 @import url("./root.css");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .featured {
   width: 100%;
   padding-top: 3rem;
