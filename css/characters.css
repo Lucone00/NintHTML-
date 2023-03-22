@@ -10,8 +10,10 @@
   font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   margin: auto;
   max-width: 1180px;
+  padding: 18px;
 }
 .characters-section h2 {
   font-size: 30px;
@@ -26,16 +28,16 @@
 
 .characters-grid {
   display: flex;
-  justify-content: center;
   margin-bottom: 30px;
 }
-
+.characters-grid1 {
+  display: flex;
+}
 .character {
-  text-align: left;
   padding: 0.5rem;
-  width: 25%;
+  width: 100%;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
 }
 
 .character-image {
@@ -50,7 +52,7 @@
 .character-image img {
   transition: all 0.2s ease-in-out;
   width: 100%;
-  max-width: 100%
+  max-width: 100%;
 }
 
 .character-image:hover img {
@@ -121,13 +123,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .character {
-    width: 50%;
-  }
-}
-
-@media (max-width: 600px){
-  .characters-grid{
-    width: 25%;
+  .characters-grid1 {
+    width: 100%;
   }
 }

@@ -71,7 +71,6 @@ hr {
   border: none;
   height: 0.1px;
   background-color: rgb(158, 153, 153);
-  margin: 20px 0;
   display: block; /* Ensure that the hr element is a block-level element */
   clear: both;
 }
@@ -153,13 +152,11 @@ hr {
 .big-cards-grid {
   display: inline-flex;
   gap: 2rem;
-  padding: 20px;
 }
 
 .small-cards-grid {
   display: inline-flex;
   gap: 32px;
-  padding:20px;
 }
 
 .small-card-image {
@@ -170,7 +167,6 @@ hr {
 .big-card-image {
   width: 100%;
   border-radius: 5px;
-  height: 350px;
 }
 
 .justify {
@@ -225,6 +221,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 18px;
 }
 
 .adjust-small-read-more {
@@ -240,6 +237,7 @@ hr {
 .see-all-news-button {
   width: 252.19px;
   height: 48.19px;
+  margin-top: 20px;
 }
 
 .small-bolder {
@@ -346,9 +344,7 @@ hr {
 }
 
 .under-image-online-store{
-  display: block;
   margin-left: 15px;
-  width: 320px;
 }
 
 .under-image-gaming-systems{
@@ -457,17 +453,13 @@ hr {
 
   .media-query-grid1{
     display: block;
-    margin-left: -80px;
+    margin-left: 14px;
   }
 
   .media-query-grid2{
     display: block;
     margin-bottom: 40px;
-  }
-
-  .small-card-image{
-    width: 355.6px;
-    height: 200.3px;
+    margin-right: -18px;
   }
 
   .feature-body1 .titles{
@@ -597,4 +589,40 @@ hr {
   height: 17.89px;
   margin-bottom: 0px;
 }
+}
+
+@media (max-width: 1024px){
+
+  .under-image-online-store{
+    flex-direction: column;
+  }
+
+  .descriptions-online-store{
+    width: 100%;
+  }
+
+  .format-button-start-shopping{
+    width: 100%;
+  }
+
+  .under-image-gaming-systems{
+    flex-direction: column;
+  }
+
+  .descriptions-gaming-system{
+    width: 100%;
+  }
+
+  .format-button-explore-now{
+    width: 1025px;
+  }
+
+  .see-all-news-button{
+    width: 100%;
+  }
+
+  .logo-block{
+    margin-left: 390px;
+  }
+
 }
