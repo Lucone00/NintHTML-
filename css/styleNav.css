@@ -87,6 +87,9 @@ nav .top-side .search-bar .select .all-categories {
   margin-left: 30px;
   font-weight: bold;
   font-size: 13px;
+  position: relative;
+  bottom: 5px;
+  right: 14px;
 }
 
 nav .top-side .box-logo {
@@ -115,50 +118,32 @@ nav .top-side .buttons {
   align-items: center;
 }
 
-nav .top-side .buttons .support {
+nav .top-side .buttons .top-box {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-nav .top-side .buttons .support .comment-box {
-  border: 1px black solid;
-  width: 25px;
-  height: 25px;
-}
-nav .top-side .buttons .wish-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-left: 15px;
 }
 
-nav .top-side .buttons .wish-list .heart-box {
-  border: 1px black solid;
-  width: 25px;
-  height: 25px;
+nav .top-side .buttons .top-box-p {
+  font-weight: bold;
+  font-size: 13px;
 }
 
-nav .top-side .buttons .cart {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+nav .top-side .box-logo:hover {
+  cursor: pointer;
 }
 
-nav .top-side .buttons .cart .cart-box {
-  border: 1px black solid;
-  width: 25px;
-  height: 25px;
+nav .top-side .buttons .top-box:hover .top-box-logo, .top-box:hover .top-box-p {
+  transition: ease 300ms;
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
-nav .top-side .buttons .log-in {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-nav .top-side .buttons .log-in .avatar-box {
-  border: 1px black solid;
-  width: 25px;
-  height: 25px;
+nav .top-side .search-bar:hover .search {
+  transition: ease 300ms;
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
 /*Bottom side*/
@@ -181,9 +166,28 @@ nav .top-side .buttons .log-in .avatar-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 10px 0px 10px;
 }
 
 .bottom-side .all-boxes .box-bottom .box-logo, .arrow-logo {
   margin-right: 5px;
   margin-left: 5px;
 }
+
+.bottom-side .all-boxes .box-bottom .p-bottom {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.bottom-side .all-boxes .box-bottom .box-logo{
+  color:rgb(72,72,72);
+}
+
+
+.bottom-side .all-boxes .box-bottom:hover .box-logo,.box-bottom:hover .p-bottom,.box-bottom:hover .arrow-logo  {
+  transition: ease 300ms;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+/* media query */
