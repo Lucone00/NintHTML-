@@ -108,3 +108,13 @@
 .splatoon-char:hover::before {
   transform: scale(1);
 }
+
+@media (max-width: 767px) {
+  .characters-grid {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
