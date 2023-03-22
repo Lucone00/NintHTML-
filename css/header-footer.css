@@ -1,19 +1,11 @@
 @import url("./root.css");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  width: 100%;
-  height: 100%;
-}
 
 .image-header {
-  width: 100%;
+  
+  width: 120%;
   height: 520px;
+  
 }
 
 .image-header .image-behind {
@@ -24,6 +16,8 @@ body{
 }
 
 .image-behind {
+  width: 100vw;
+  height: 520px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,8 +30,8 @@ body{
 }
 
 .immagine-principale{
- height: 85%;
-  
+ max-width: 1440px;
+ 
 }
 
 .spazio-vuoto {
@@ -183,7 +177,7 @@ a:hover .bottone{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-left: 1px solid var(--secondary-color);
+  border-left: 1px solid var(--font-color);
   padding: 50px;
 }
 
@@ -257,4 +251,5 @@ a:hover .bottone{
   transform: scale(1.1,1.1);
   font-size: 12px;
 }
+
 
