@@ -312,17 +312,18 @@ hr {
 
   .media-query-grid1{
     display: block;
-    margin-left: -80px;
+    padding-left: 50px;
   }
 
   .media-query-grid2{
     display: block;
-    margin-bottom: 40px;
+    padding-right: 50px;
+  
   }
 
   .small-card-image{
-    width: 355.6px;
-    height: 200.3px;
+    width: 159.2px;
+    height: 89.55px;
   }
 
   .feature-body1 .titles{
@@ -331,8 +332,6 @@ hr {
   margin-left: 15px;
   margin-top: 30px;
   margin-bottom: 20px;
-  border: solid;
-
 }
 
 .online-store-image{
@@ -421,7 +420,7 @@ hr {
 }
 
 .adjust-read-more{
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 17px;
 }
 
@@ -455,6 +454,7 @@ hr {
 }
 
 }
+
 
 @media (max-width: 768px){
 
