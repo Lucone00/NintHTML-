@@ -10,7 +10,10 @@
   font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   margin: auto;
+  max-width: 1180px;
+  padding: 18px;
 }
 .characters-section h2 {
   font-size: 30px;
@@ -25,16 +28,16 @@
 
 .characters-grid {
   display: flex;
-  justify-content: center;
   margin-bottom: 30px;
 }
-
+.characters-grid1 {
+  display: flex;
+}
 .character {
-  text-align: left;
   padding: 0.5rem;
-  width: 25%;
+  width: 100%;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
 }
 
 .character-image {
@@ -112,25 +115,15 @@
   transform: scale(1);
 }
 
-@media (max-width: 1024px) {
-  .character {
-    width: 33.33%;
-    max-width: 90%
-  }
-}
-
 @media (max-width: 767px) {
-  .character {
-    width: 50%;
-  }
   .characters-grid {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: flex;
     flex-wrap: wrap;
-    max-width: 90%;
   }
-}
-
-@media (max-width: 590px) {
-  .character {
-    width: 60%;
+  .characters-grid1 {
+    width: 100%;
   }
 }
