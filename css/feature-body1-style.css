@@ -344,9 +344,7 @@ hr {
 }
 
 .under-image-online-store{
-  display: block;
   margin-left: 15px;
-  width: 320px;
 }
 
 .under-image-gaming-systems{
@@ -455,17 +453,13 @@ hr {
 
   .media-query-grid1{
     display: block;
-    margin-left: -80px;
+    margin-left: 14px;
   }
 
   .media-query-grid2{
     display: block;
     margin-bottom: 40px;
-  }
-
-  .small-card-image{
-    width: 355.6px;
-    height: 200.3px;
+    margin-right: -18px;
   }
 
   .feature-body1 .titles{
