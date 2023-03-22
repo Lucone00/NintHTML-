@@ -9,7 +9,7 @@
   margin: 0 auto;
   font-family: var(--font-family);
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   margin: auto;
   max-width: 1180px;
 }
@@ -33,6 +33,9 @@
 .character {
   text-align: left;
   padding: 0.5rem;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .character-image {
@@ -47,6 +50,7 @@
 .character-image img {
   transition: all 0.2s ease-in-out;
   width: 100%;
+  max-width: 100%
 }
 
 .character-image:hover img {
@@ -116,5 +120,14 @@
     margin: 10px 0;
     display: flex;
     flex-wrap: wrap;
+  }
+  .character {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px){
+  .characters-grid{
+    width: 25%;
   }
 }
