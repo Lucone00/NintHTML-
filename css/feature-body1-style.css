@@ -240,6 +240,7 @@ hr {
   height: 300px;
   width: 1250px;
   margin-top: 2%;
+  margin-bottom: -250px;
 }
 
 .small-bolder {
@@ -309,77 +310,85 @@ hr {
 
 @media (max-width: 375px){
 
-.media-query-small-read-more{
-  margin-top: -30px;
-}
+  .media-query-grid1{
+    display: block;
+    padding-left: 50px;
+  }
 
-.even-media-query-small-read-more{
-  margin-top: -20px;
-}
+  .media-query-grid2{
+    display: block;
+    padding-right: 50px;
+  
+  }
 
-.media-query-grid1{
-  display: block;
-  margin-left: 28px;
-  width: 145px;
-}
+  .small-card-image{
+    width: 159.2px;
+    height: 89.55px;
+  }
 
-.media-query-grid2{
-  display: block;
-  margin-right: 28px;
-  width: 145px;
-}
-
-.feature-body1 .titles{
+  .feature-body1 .titles{
   font-size: 21px;
-  width: 345px;
+  width: 370px;
   margin-left: 15px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .online-store-image{
-  width: 343.2px;
-  height: 160.01px;
+  margin-left: 15px;
+  width: 735.2px;
+  height: 342.6px;
 }
 
 .gaming-systems-image{
-  width: 342.4px;
-  height: 114.35px;
+  margin-left: 15px;
+  width: 735.2px;
+  height: 244.81px;
 }
 
 .under-image-online-store{
   display: block;
+  margin-left: 15px;
+  width: 320px;
 }
 
 .under-image-gaming-systems{
   display: block;
+  margin-left: 15px;
+  width: 320px;
 }
 
 .descriptions-online-store{
   font-size: 18px;
-  width: 345px;
-  margin-left: 15px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin:0;
+  width: 735px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .descriptions-gaming-system{
   font-size: 18px;
-  width: 345px;
-  margin-left: 15px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin:0;
+  width: 735px;
+  height: 50px;
+  margin-top: 30px;
 }
 
 .format-button-start-shopping{
-  width: 345px;
-  margin-left: 15px;
-
+  height: 47.6px;
+  width: 342px;
+  margin-left: 0;
+  border-radius: 2px;
+  font-size: 18px;
 }
 
 .format-button-explore-now{
-  width: 345px;
-  margin-left: 15px;
+  height: 47.6px;
+  width: 734.8px;
+  margin-left: 0;
+  border-radius: 2px;
+  font-size: 18px;
 }
 
 .big-cards-grid{
@@ -388,71 +397,70 @@ hr {
 }
 
 .big-card-image{
-  width: 342.4px;
-  height: 192.6px;
-  
+  width: 735.2px;
+  height: 413.55px;
+  border-radius: 2px;
 }
 
 .adjust-date{
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .bolder{
-  width: 342px;
-  font-size: 16px;
-  margin-bottom: 12px;
+  font-size: 18px;
+  height: 45px;
+  width: 736px;
+  margin-bottom: 25px;
 }
 
 .justify{
-  height: 60px;
-  width: 342.4px;
-  font-size: 14px;
+  height: 45px;
+  width: 736px;
+  font-size: 16px;
 }
 
 .adjust-read-more{
   font-size: 14px;
-}
-
-.small-cards-grid{
-  display: block;
-  height: 490px;
-}
-
-.small-bolder{
-  height: 105px;
-  font-size: 14px;
-  
-}
-
-.adjust-small-date{
-  font-size: 14px;
-}
-
-.adjust-small-read-more{
-  margin-bottom: 30px;
-  font-size: 14px;
+  margin-bottom: 17px;
 }
 
 .see-all-news-button{
-  width: 1715px;
   margin-left: 15px;
+  margin-top: -15px;
+  height: 60px;
 }
 
-.logo-block{
-  margin-left: 70px;
+.format-last-button{
+  border-radius: 2px;
+  width: 734.8px;
+  height: 47.6px;
 }
 
 .text-block{
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: -2px;
+  margin-left: 0;
+}
+
+.logo-block{
+  margin-left: 270px;
+  margin-right: 15px;
+}
+
+.logo-button{
+  width: 20px;
+  height: 17.89px;
+  margin-bottom: 0px;
 }
 
 }
+
 
 @media (max-width: 768px){
 
   .media-query-grid1{
     display: block;
+    margin-left: -80px;
   }
 
   .media-query-grid2{
@@ -460,130 +468,136 @@ hr {
     margin-bottom: 40px;
   }
 
+  .small-card-image{
+    width: 355.6px;
+    height: 200.3px;
+  }
+
   .feature-body1 .titles{
-  font-size: 13px;
+  font-size: 28px;
   width: 320px;
-  margin-left: 75px;
-  margin-top: 3px;
-  margin-bottom: 0.5rem;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
 }
 
 .online-store-image{
-  margin-left: 75px;
-  width: 320px;
-  height: 152px;
+  margin-left: 15px;
+  width: 735.2px;
+  height: 342.6px;
 }
 
 .gaming-systems-image{
-  margin-left: 75px;
-  width: 320px;
-  height: 152px;
+  margin-left: 15px;
+  width: 735.2px;
+  height: 244.81px;
 }
 
 .under-image-online-store{
   display: block;
-  margin-left: 75px;
+  margin-left: 15px;
   width: 320px;
 }
 
 .under-image-gaming-systems{
   display: block;
-  margin-left: 75px;
+  margin-left: 15px;
   width: 320px;
 }
 
 .descriptions-online-store{
-  font-size: 8px;
+  font-size: 18px;
   margin:0;
-  width: 320px;
-  height: 20px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 735px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .descriptions-gaming-system{
-  font-size: 8px;
+  font-size: 18px;
   margin:0;
-  width: 320px;
-  height: 20px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 735px;
+  height: 50px;
+  margin-top: 30px;
 }
 
 .format-button-start-shopping{
-  height: 20px;
-  width: 320px;
-  margin-left: 0px;
+  height: 47.6px;
+  width: 734.8px;
+  margin-left: 0;
   border-radius: 2px;
-  font-size: 7px;
+  font-size: 18px;
 }
 
 .format-button-explore-now{
-  height: 20px;
-  width: 320px;
-  margin-left: 0px;
+  height: 47.6px;
+  width: 734.8px;
+  margin-left: 0;
   border-radius: 2px;
-  font-size: 7px;
+  font-size: 18px;
 }
 
 .big-cards-grid{
   display: block;
-  margin-left: 75px;
-  width: 325px;
+  margin-left: 15px;
 }
 
 .big-card-image{
-  width: 321px;
-  height: 152px;
+  width: 735.2px;
+  height: 413.55px;
   border-radius: 2px;
 }
 
 .adjust-date{
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .bolder{
-  font-size: 7px;
-  height: 20px;
-  width: 322px;
+  font-size: 18px;
+  height: 45px;
+  width: 736px;
   margin-bottom: 25px;
 }
 
 .justify{
-  width: 322px;
-  font-size: 7px;
-  height: 20px;
+  height: 45px;
+  width: 736px;
+  font-size: 16px;
 }
 
 .adjust-read-more{
-  font-size: 7px;
+  font-size: 16px;
   margin-bottom: 17px;
 }
 
 .see-all-news-button{
-  margin-left: 75px;
-  width: 1610px;
-  height: 20px;
+  margin-left: 15px;
+  margin-top: -15px;
+  height: 300px;
 }
 
 .format-last-button{
   border-radius: 2px;
+  width: 734.8px;
+  height: 47.6px;
 }
 
 .text-block{
-  font-size: 8px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  margin-bottom: -2px;
   margin-left: 0;
 }
 
-.logo-button{
-  width: 10px;
-  height: 7px;
-  margin-bottom: 0px;
+.logo-block{
+  margin-left: 270px;
+  margin-right: 15px;
 }
 
-.logo-block{
-  margin-left: 100px;
-  margin-right: 3px;
+.logo-button{
+  width: 20px;
+  height: 17.89px;
+  margin-bottom: 0px;
 }
 }
