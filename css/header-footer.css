@@ -35,6 +35,11 @@ body{
   width: 96%;
 }
 
+.immagine-principale{
+ height: 85%;
+  
+}
+
 .spazio-vuoto {
   height: 106px;
 }
@@ -75,11 +80,13 @@ body{
   color: var(--font-color);
 }
 
+
+
 a:hover .bottone{
   background-color:  var(--buttonhover-color);
 }
 
-.h3{
+.footer .h3{
   text-decoration: underline solid transparent;
   color: black;
   cursor: pointer;
@@ -89,7 +96,7 @@ a:hover .bottone{
   transition: text-decoration 0.2s ease;
 }
 
-.h3 a{
+.footer .h3 a{
   text-decoration: underline solid transparent;
   color: rgb(2, 2, 2);
   cursor: pointer;
@@ -99,7 +106,7 @@ a:hover .bottone{
   transition: text-decoration 0.2s ease;
 }
 
-.h3 a:hover {
+.footer .h3 a:hover {
   text-decoration: underline rgb(0, 0, 0) 3px;
 }
 
@@ -161,7 +168,7 @@ a:hover .bottone{
   text-decoration: underline var(--secondary-color) 3px;
 }
 
-.footer-under .footer-box h3 {
+.footer-under .footer-box .h3 {
   font-size: 18px;
   font-family: "museo sans rounded", sans-serif;
 }
@@ -250,3 +257,4 @@ a:hover .bottone{
   transform: scale(1.1,1.1);
   font-size: 12px;
 }
+
