@@ -71,16 +71,16 @@
   margin: 10px;
 }
 
-header .space-beetween{
-  display: flex;
-  flex-grow: 1;
-}
 
 .bottone:hover{
   animation-name: buttonBouncing;
   animation-duration: .8s;
   animation-timing-function: ease-in-out;
   background-color:  var(--buttonhover-color);
+}
+
+.esrb{
+  margin-left: auto;
 }
 
 .esrb a{
