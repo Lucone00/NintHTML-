@@ -6,14 +6,13 @@
 }
 .characters-section {
   width: 100%;
-  height: auto;
   margin: 0 auto;
-  border-top: 0.5px solid rgb(158, 153, 153);
-  border-bottom: 0.5px solid rgb(158, 153, 153);
-  padding: 20px;
   font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1180px;
 }
-
 .characters-section h2 {
   font-size: 30px;
   color: var(--font-color);
