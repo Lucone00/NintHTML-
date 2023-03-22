@@ -19,15 +19,59 @@
 .feat-title {
   height: 2.36rem;
   width: 90%;
-  margin-left: 2.5rem;
+  margin-left: 1.125rem;
   font-size: 1.75rem;
   font-weight: 700;
+}
+
+.card-banner-image {
+  background-image: url(../Assets/mario-card-banner.avif);
+  width: 1144px;
+  height: 345px;
+  margin: auto;
+}
+
+.card-banner-subtitle {
+  width: 1144px;
+  height: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  gap: 1.125rem;
+  margin: auto;
+  align-items: center;
+}
+
+.card-banner-subtitle button {
+  width: 132px;
+  height: 48px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in;
+  margin-left: 1.563rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-banner-subtitle button:hover {
+  height: 53px;
+  width: 142px;
+  background-color: var(--buttonhover-color);
 }
 
 .card {
   display: flex;
   overflow: auto;
-  margin: 0 40px 0 40px;
+  gap: 1.125rem;
+  width: 1144px;
+  cursor: grab;
+}
+
+.card:active {
+  cursor: grabbing;
 }
 
 .card::-webkit-scrollbar {
