@@ -249,6 +249,16 @@ hr {
   font-size: 16px;
 }
 
+.media-query-grid1{
+  display: flex;
+  gap: 32px;
+}
+
+.media-query-grid2{
+  display: flex;
+  gap: 32px;
+}
+
 .format-button:hover > .text-block {
   font-size: 15px;
 }
@@ -298,6 +308,18 @@ hr {
 }
 
 @media (max-width: 375px){
+
+.media-query-grid1{
+  display: block;
+  margin-left: 28px;
+  width: 145px;
+}
+
+.media-query-grid2{
+  display: block;
+  margin-right: 28px;
+  width: 145px;
+}
 
 .feature-body1 .titles{
   font-size: 21px;
@@ -386,14 +408,22 @@ hr {
 
 .small-cards-grid{
   display: block;
+  height: 490px;
 }
 
-.small-card{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 159.2px;
-  height: 89.55px;
+.small-bolder{
+  height: 105px;
+  font-size: 14px;
+  
+}
+
+.adjust-small-date{
+  font-size: 14px;
+}
+
+.adjust-small-read-more{
+  margin-bottom: 30px;
+  font-size: 14px;
 }
 
 .see-all-news-button{
