@@ -49,6 +49,7 @@ nav .top-side .search-bar {
   justify-content: start;
   align-items: center;
   border-bottom: 1px solid black;
+  width: 420px;
 }
 
 nav .top-side .search-bar .search {
@@ -59,25 +60,24 @@ nav .top-side .search-bar .search {
   gap: 5px;
 }
 
-nav .top-side .search-bar .search .lens-box {
-  border: 1px black solid;
-  width: 25px;
-  height: 25px;
+nav .top-side .search-bar .search .lens {
+  color: var(--font-color);
 }
 
 nav .top-side .search-bar .search input {
   border: none;
   width: 300px;
+  padding: 10px 5px 10px 5px; 
 }
 
-nav .top-side .search-bar .select .all-categories {
+nav .top-side .select .all-categories {
   border: none;
   margin-left: 30px;
   font-weight: bold;
   font-size: 13px;
   position: relative;
-  bottom: 4px;
-  right: 17px;
+  bottom: 2px;
+  right: 165px;
 }
 
 nav .top-side .box-logo {
@@ -128,9 +128,24 @@ nav .top-side .buttons .top-box:hover .top-box-logo, .top-box:hover .top-box-p {
   cursor: pointer;
 }
 
-nav .top-side .search-bar:hover .search::placeholder {
+nav .top-side .search-bar:hover, .search-bar:hover{
   transition: ease 300ms;
   color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  cursor: pointer;
+}
+
+nav .top-side .search-bar:hover, .search-bar:hover input::placeholder, .search-bar:hover .lens svg{
+  transition: ease 300ms;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+
+nav .top-side .search-bar:hover, .select .all-categories:hover{
+  transition: ease 300ms;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
   cursor: pointer;
 }
 
