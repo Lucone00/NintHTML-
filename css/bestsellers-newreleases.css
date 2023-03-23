@@ -68,7 +68,7 @@
 
 .slider-box::-webkit-scrollbar-thumb {
     border: 2px solid var(--secondary-color);
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: var(--primary-color);
     transition: ease 0.5s;
 }
@@ -444,8 +444,6 @@
 @media (max-width: 768px){
     .slider-box{
         width: 38.875rem;
-        height: 20.75rem;
-        gap: 0.11rem;
     }
 }
 
