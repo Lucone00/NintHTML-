@@ -127,7 +127,7 @@
 }
 
 .footer-under {
-  width: 100%;
+  width: 97%;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -371,7 +371,7 @@ display: flex;
   }
   .black-bar .copyright p {
     color: var(--primary-color);
-    font-size: 15px;
+    font-size: 11px;
   }
   .region-changer {
     display: flex;
@@ -403,6 +403,7 @@ display: flex;
     flex-direction: column;
     padding: 36px 16px;
     height: 100%;
+    width: 100%;
   }
   .footer-under {
     display: grid;
@@ -413,7 +414,8 @@ display: flex;
     gap: 20px;
   }
   .black-bar {
-    padding: 30px 70px 150px 70px;
+    padding: 30px 0px 0px 0px;
+    width: 100%;
   }
   .black-bar .black-bar-links {
     width: fit-content;

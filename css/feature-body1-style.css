@@ -274,6 +274,23 @@ hr {
   cursor: pointer;
 }
 
+.button-gabriel-ultimo {
+  width: fit-content;
+  height: 48px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-gabriel-ultimo:hover {
+  transition: all .7s;
+  height: 54px;
+}
+
 .button-gabriel:hover {
   animation-name: buttonBouncing;
   animation-duration: .7s;
@@ -600,7 +617,16 @@ hr {
   margin-bottom: 0px;
   margin-left: -270px;
 }
+
+.button-gabriel-ultimo {
+  width: 95%;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
 }
+
+}
+
 
 @media (max-width: 1024px){
 
@@ -651,5 +677,12 @@ hr {
     animation-name: query-1-button;
     animation-duration: .7s;
     animation-timing-function: ease-in;
+  }
+
+  .button-gabriel-ultimo {
+    width: 95%;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
   }
 }
