@@ -279,10 +279,11 @@
     width: 100%;
   }
   .card-banner-image {
-    width: 44.875rem;
+    width: 100%;
     height: 25.125rem;
     background-image: url(../Assets/image/mario-banner-feature-mediaq.avif);
-    background-size: contain;
+    background-size: cover;
+    background-position: center center;
   }
   .card-banner-subtitle {
     max-width: 44.875rem;
@@ -329,7 +330,6 @@
   }
   .featured .card {
     width: 38.875rem;
-    height: 20.75rem;
     gap: 0.11rem;
   }
 } 

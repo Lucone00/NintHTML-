@@ -262,11 +262,22 @@ hr {
   font-size: 15px;
 }
 
-.all-button:hover {
-  background-color: var(--buttonhover-color);
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1, 1.1);
-  font-size: 12px;
+.button-gabriel {
+  width: 132px;
+  height: 48px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-gabriel:hover {
+  animation-name: buttonBouncing;
+  animation-duration: .7s;
+  animation-timing-function: ease;
 }
 
 .format-last-button:hover {
@@ -503,6 +514,11 @@ hr {
   margin-bottom: 30px;
 }
 
+.online-store-image {
+  width: 97%;
+  height: fit-content;
+}
+
 .descriptions-gaming-system{
   font-size: 18px;
   margin:0;
@@ -588,12 +604,18 @@ hr {
 
 @media (max-width: 1024px){
 
+  .gaming-systems {
+    width: 100%;
+  }
+
   .under-image-online-store{
     flex-direction: column;
+    align-items: center;
   }
 
   .descriptions-online-store{
     width: 100%;
+    text-align: center;
   }
 
   .format-button-start-shopping{
@@ -602,6 +624,8 @@ hr {
 
   .under-image-gaming-systems{
     flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 
   .descriptions-gaming-system{
@@ -620,4 +644,12 @@ hr {
     margin-left: 390px;
   }
 
+  .button-gabriel {
+    width: 95%;
+  }
+  .button-gabriel:hover {
+    animation-name: query-1-button;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
+  }
 }
