@@ -520,7 +520,6 @@ nav .top-side .search-bar:hover .search::placeholder {
   display: flex;
   border: solid rgb(170, 170, 170) 1px;
   border-radius: 5px;
-  width: 120px;
   height: 70px;
   align-items: center;
   justify-content: center;
@@ -528,6 +527,40 @@ nav .top-side .search-bar:hover .search::placeholder {
 
 .bottom-side .all-boxes #fourth-menu:active .bg-hidden4 {
   display: block;
+}
+/*2nd nav-phone*/
+
+nav .second-nav{
+  display: none;
+  align-self: center;
+  position: fixed;
+  top: 820px;
+
+}
+
+nav .second-nav .box-2nav {
+  display: flex;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px 1px black;
+  height: 58px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 35px 0px 35px;
+  gap: 50px;
+}
+
+nav .second-nav .box-2nav .obj-button .search-circle {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+  color:var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
 }
 
 /* media query */
@@ -561,4 +594,7 @@ nav .top-side .search-bar:hover .search::placeholder {
   nav .top-side .box-logo .logo .nintendo {
     font-size: 20px;
   }
+ nav .second-nav {
+  display: block;
+ }
 }
