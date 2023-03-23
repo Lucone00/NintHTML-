@@ -65,6 +65,7 @@
   width: 78%;
   margin-bottom: 2%;
   font-size: 28px;
+  padding-left: 20px;
 }
 
 hr {
@@ -90,7 +91,7 @@ hr {
 }
 
 .format-button-explore-now {
-  width: 153.23px;
+  width: 95%;
   height: 47.6px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
