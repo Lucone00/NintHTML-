@@ -656,6 +656,7 @@ hr {
 
   .descriptions-gaming-system{
     width: 100%;
+    justify-content: center;
   }
 
   .format-button-explore-now{
@@ -684,5 +685,11 @@ hr {
     height: 48px;
     justify-content: center;
     align-items: center;
+  }
+
+  .button-gabriel-ultimo:hover {
+    animation-name: query-1-button;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
   }
 }
