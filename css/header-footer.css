@@ -341,6 +341,9 @@ display: flex;
     display: flex;
     justify-content: space-between;
   }
+  .footer-nintendo-red .social-links {
+    margin-right: 2rem;
+  }
   .footer-under {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
