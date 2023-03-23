@@ -111,6 +111,30 @@
   transform: scale(1);
 }
 
+@media (max-width: 1024px) {
+  .characters-grid{
+    width: 95%;
+    height: fit-content ;
+    margin-bottom: 60px;
+    gap: 1rem;
+  }
+  .character{
+    width: 216px;
+    height: 216px;
+    
+  }
+  .character-image{
+    width: 216px;
+    height: 216px;
+  }
+  .characters-grid1{
+    height: 230px;
+    width: fit-content;
+    gap: 1rem;
+  }
+  
+}
+
 @media (max-width: 767px) {
   .characters-grid {
     width: 100%;
