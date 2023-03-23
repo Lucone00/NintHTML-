@@ -535,7 +535,8 @@ nav .top-side .search-bar:hover, .select .all-categories:hover{
   display: flex;
   border: solid rgb(170, 170, 170) 1px;
   border-radius: 5px;
-  height: 70px;
+  height: 60px;
+  width: 120px;
   align-items: center;
   justify-content: center;
 }
@@ -589,6 +590,9 @@ nav .second-nav .box-2nav .obj-button .search-circle {
     height: 65px;
   }
   nav .top-side .buttons {
+    display: none;
+  }
+  nav .top-side .select {
     display: none;
   }
   nav .top-side .search-bar {
