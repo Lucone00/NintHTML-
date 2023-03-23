@@ -534,8 +534,7 @@ nav .second-nav{
   display: none;
   align-self: center;
   position: fixed;
-  top: 850px;
-
+  bottom: 20px;
 }
 
 nav .second-nav .box-2nav {
