@@ -1,9 +1,5 @@
 @import url(./root.css);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .characters-section {
   width: 100%;
   margin: 0 auto;
@@ -122,6 +118,7 @@
     margin: 10px 0;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
   }
   .characters-grid1 {
     width: 100%;

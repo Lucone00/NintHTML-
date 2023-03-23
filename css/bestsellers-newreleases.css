@@ -435,13 +435,22 @@
 }
 
 @media (max-width: 1024px){
+    .digital-best-sellers{
+        margin: 0;
+    }
+
     .slider-box{
         width: 54.375rem;
         margin-left: 40px;
     }
+
 }
 
 @media (max-width: 768px){
+    .digital-best-sellers{
+        margin: 0;
+    }
+
     .slider-box{
         width: 38.875rem;
     }
