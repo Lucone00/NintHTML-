@@ -592,6 +592,9 @@ nav .second-nav .box-2nav .obj-button .search-circle {
   nav .top-side .buttons {
     display: none;
   }
+  nav .top-side .select {
+    display: none;
+  }
   nav .top-side .search-bar {
     display: none;
   }
