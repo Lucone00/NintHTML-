@@ -21,6 +21,7 @@ body {
   color: var(--font-color);
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 @keyframes buttonBouncing {
